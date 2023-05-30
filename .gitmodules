@@ -1,0 +1,3 @@
+[submodule "lib/Arduino-PS2X-ESP32-Makerbot"]
+	path = lib/Arduino-PS2X-ESP32-Makerbot
+	url = https://github.com/makerviet/Arduino-PS2X-ESP32-Makerbot
