@@ -23,6 +23,7 @@ byte error = -1;
 uint16_t tryNum = 0;
 byte doorState = 1;
 
+byte PullState = 1;
 void setSpeed(int16_t left, int16_t right)
 {
     if (left >= 0)
@@ -88,23 +89,42 @@ void loop()
     - R1 ++1 trạng thái
     - R2 --1 trạng thái*/
 
-    if ((doorState == 1 or doorState == 2) and ps2x.ButtonPressed(PSB_R2))
+    if ((doorState == 1 or doorState == 2) and ps2x.ButtonReleased(PSB_R2))
     {
+        Serial.println(doorState);
         doorState++;
         //      // Extend door outwards
         //     pwm.writeMicroseconds(LeftServoGround, timeOn);
         //  // Extend door outwards
         //     pwm.writeMicroseconds(RightServoGround, timeOn);
 
-        pwm.setPWM(LeftServoGround, 0, 410);  // chọn kênh servo số 5
-        pwm.setPWM(RightServoGround, 0, 410); // chọn kênh servo số 5
+        pwm.setPWM(LeftServoGround, 0, 410);
+        pwm.setPWM(RightServoGround, 410, 0);
     }
-    if ((doorState == 2 or doorState == 3) and ps2x.ButtonPressed(PSB_R1))
+    if ((doorState == 2 or doorState == 3) and ps2x.ButtonReleased(PSB_R1))
     {
+        Serial.println(doorState);
         doorState--;
-        pwm.setPWM(LeftServoGround, 0, 205);  // chọn kênh servo số 5
-        pwm.setPWM(RightServoGround, 0, 205); // chọn kênh servo số 5
+        pwm.setPWM(LeftServoGround, 0, 205);
+        pwm.setPWM(RightServoGround, 205, 0);
     }
+
+    if ((PullState == 1 or PullState == 2) and ps2x.ButtonReleased(PSB_R2))
+    {
+        // Serial.println(doorState);
+        PullState++;
+        pwm.setPWM(LeftServoPulley, 0, 410);  // chọn kênh servo số 5
+        pwm.setPWM(RightServoPulley, 0, 410); // chọn kênh servo số 5
+    }
+    
+    if ((PullState == 2 or PullState == 3) and ps2x.ButtonReleased(PSB_R1))
+    {
+        // Serial.println(doorState);
+        PullState--;
+        pwm.writeMicroseconds(LeftServoPulley, 500);  // chọn kênh servo số 5
+        pwm.writeMicroseconds(RightServoPulley, 500); // chọn kênh servo số 5
+    }
+
     /*CƠ CHẾ HOẠT ĐỘNG CỦA 2 SERVO TRÊN:
     - Có 2 chế độ: nâng lên và hạ thấp xuống.
     - Sử dụng 2 phím L1-L2 để luân chuyển giữa 3 chế độ.
