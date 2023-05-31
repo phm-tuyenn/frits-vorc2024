@@ -132,6 +132,19 @@ void loop()
     - L1 ++1 trạng thái
     - R2 --1 trạng thái*/
 
+    /*
+    if true and pressed {
+        true = false;
+        prev = millis();
+        do something
+    }
+
+    if millis() - prev > time {
+        false = true
+        stop do something
+    }
+    */
+
     ps2x.read_gamepad();
     delay(10);
 }
