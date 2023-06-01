@@ -19,8 +19,8 @@ int tempgnd = 0;
 #define RightGroundState1 1500
 #define LeftGroundState2 1050
 #define RightGroundState2 1950
-#define LeftGroundState3 150
-#define RightGroundState3 2850
+#define LeftGroundState3 2400
+#define RightGroundState3 600
 
 PS2X ps2x;
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
@@ -28,7 +28,7 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 byte error = -1;
 uint16_t tryNum = 0;
 
-//door and pull variables
+// door and pull variables
 byte doorState = 1;
 int prevDoor;
 bool delayDoorState = true;
@@ -63,28 +63,34 @@ void setSpeed(int16_t left, int16_t right)
     }
 }
 
-void changeDoorState(){
-    if ((doorState == 1) and ps2x.ButtonReleased(PSB_CIRCLE))
+void changeDoorState()
+{
+    // Serial.print("Da vao ben trong change doorstate");
+    if ((doorState == 1) and ps2x.ButtonPressed(PSB_CIRCLE))
     {
+        Serial.println(doorState);
         doorState++;
-        pwm.setPWM(LeftServoGround, 0, LeftGroundState1);
-        pwm.setPWM(RightServoGround, 0, RightGroundState1);
+        pwm.writeMicroseconds(LeftServoGround, LeftGroundState1);
+        pwm.writeMicroseconds(RightServoGround, RightGroundState1);
+        //  Serial.println(doorState, LeftGroundState1);
     }
 
-    if ((doorState == 2) and ps2x.ButtonReleased(PSB_CIRCLE))
+    else if ((doorState == 2) and ps2x.ButtonPressed(PSB_CIRCLE))
     {
-
+        Serial.println(doorState);
         doorState++;
-        pwm.setPWM(LeftServoGround, 0, LeftGroundState2);
-        pwm.setPWM(RightServoGround, 0, RightGroundState2);
+        pwm.writeMicroseconds(LeftServoGround, LeftGroundState2);
+        pwm.writeMicroseconds(RightServoGround, RightGroundState2);
+        // Serial.println("so 2 ");
     }
 
-    if (( doorState == 3) and ps2x.ButtonReleased(PSB_CIRCLE))
+    else if ((doorState == 3) and ps2x.ButtonPressed(PSB_CIRCLE))
     {
-
-        doorState = doorState - 2;
-        pwm.setPWM(LeftServoGround, 0, LeftGroundState3);
-        pwm.setPWM(RightServoGround, 0, RightGroundState3);
+        Serial.println(doorState);
+        doorState = 1;
+        pwm.writeMicroseconds(LeftServoGround, LeftGroundState3);
+        pwm.writeMicroseconds(RightServoGround, RightGroundState3);
+        // Serial.println("so 3 ");
     }
 }
 
@@ -138,20 +144,26 @@ void loop()
     - R1 ++1 trạng thái
     - R2 --1 trạng thái*/
 
-    if ((delayDoorState) and (ps2x.ButtonPressed(PSB_CROSS))) {
-            delayDoorState = false;
-            prevDoor = millis();
-            //do something
-            changeDoorState();
-        }
+    if ((delayDoorState) and (ps2x.ButtonPressed(PSB_CIRCLE)))
+    {
+        delayDoorState = false;
+        prevDoor = millis();
+        // do something
+        changeDoorState();
+        // Serial.println("running");
+        // Serial.println(doorState);
+        // Serial.println(ps2x.ButtonPressed(PSB_CIRCLE));
+    }
 
-        if (millis() - prevDoor > 1000) {
-            delayDoorState = true;
-            {
-                pwm.setPWM(LeftServoGround, 0, 0);
-                pwm.setPWM(RightServoGround, 0, 0);
-            }
+    if (millis() - prevDoor > 500)
+    {
+        delayDoorState = true;
+        {
+            pwm.setPWM(LeftServoGround, 0, 0);
+            pwm.setPWM(RightServoGround, 0, 0);
+            // Serial.println("RUn2");
         }
+    }
 
     /*CƠ CHẾ HOẠT ĐỘNG CỦA 2 SERVO TRÊN:
     - Có 2 chế độ: nâng lên và hạ thấp xuống.
@@ -161,17 +173,19 @@ void loop()
     - L2 --1 trạng thái*/
 
     { // pull up
-        if ((delayPullState) and (ps2x.ButtonPressed(PSB_CROSS))) {
+        if ((delayPullState) and (ps2x.ButtonPressed(PSB_CROSS)))
+        {
             delayPullState = false;
             prevPull = millis();
-            //do something
+            // do something
             {
-                pwm.writeMicroseconds(LeftServoPulley, 2000);
-                pwm.writeMicroseconds(RightServoPulley, 2000);
+                pwm.writeMicroseconds(LeftServoPulley, 800);
+                pwm.writeMicroseconds(RightServoPulley, 2200);
             }
         }
 
-        if (millis() - prevPull > 1000) {
+        if (millis() - prevPull > 1000)
+        {
             delayPullState = true;
             {
                 pwm.writeMicroseconds(LeftServoPulley, 0);
@@ -189,5 +203,4 @@ void loop()
     // }
 
     ps2x.read_gamepad();
-    delay(10);
 }
