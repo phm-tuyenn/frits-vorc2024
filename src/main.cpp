@@ -12,8 +12,8 @@
 int tempgnd = 0;
 #define LeftServoGround 2
 #define RightServoGround 3
-#define LeftServoPulley 4
-#define RightServoPulley 5
+#define LeftServoPulley 6
+#define RightServoPulley 7
 
 #define LeftGroundState1 1500
 #define RightGroundState1 1500
