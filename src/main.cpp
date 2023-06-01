@@ -15,12 +15,20 @@ int tempgnd = 0;
 #define LeftServoPulley 4
 #define RightServoPulley 5
 
+#define LeftGroundState1 1500
+#define RightGroundState1 1500
+#define LeftGroundState2 1050
+#define RightGroundState2 1950
+#define LeftGroundState3 150
+#define RightGroundState3 2850
+
 PS2X ps2x;
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
 byte error = -1;
 uint16_t tryNum = 0;
 
+//door and pull variables
 byte doorState = 1;
 int prevDoor;
 bool delayDoorState = true;
@@ -28,6 +36,7 @@ bool delayDoorState = true;
 byte pullState = 1;
 int prevPull;
 bool delayPullState = true;
+//
 
 void setSpeed(int16_t left, int16_t right)
 {
@@ -58,24 +67,24 @@ void changeDoorState(){
     if ((doorState == 1) and ps2x.ButtonReleased(PSB_CIRCLE))
     {
         doorState++;
-        pwm.setPWM(LeftServoGround, 0, 4086);
-        pwm.setPWM(RightServoGround, 0, 890);
+        pwm.setPWM(LeftServoGround, 0, LeftGroundState1);
+        pwm.setPWM(RightServoGround, 0, RightGroundState1);
     }
 
     if ((doorState == 2) and ps2x.ButtonReleased(PSB_CIRCLE))
     {
 
         doorState++;
-        pwm.setPWM(LeftServoGround, 0, 645);
-        pwm.setPWM(RightServoGround, 0, 22);
+        pwm.setPWM(LeftServoGround, 0, LeftGroundState2);
+        pwm.setPWM(RightServoGround, 0, RightGroundState2);
     }
 
     if (( doorState == 3) and ps2x.ButtonReleased(PSB_CIRCLE))
     {
 
         doorState = doorState - 2;
-        pwm.setPWM(LeftServoGround, 0, 2);
-        pwm.setPWM(RightServoGround, 0, 52);
+        pwm.setPWM(LeftServoGround, 0, LeftGroundState3);
+        pwm.setPWM(RightServoGround, 0, RightGroundState3);
     }
 }
 
@@ -104,6 +113,8 @@ void setup()
     pwm.setOscillatorFrequency(27000000);
     pwm.setPWMFreq(60);
     Wire.setClock(400000);
+    pwm.writeMicroseconds(LeftServoGround, 1500);
+    pwm.writeMicroseconds(RightServoGround, 1500);
 }
 
 void loop()
