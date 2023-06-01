@@ -54,20 +54,15 @@ void setSpeed(int16_t left, int16_t right)
     }
 }
 
-float servoConverter(float angle, float timeOn)
-{
-    return timeOn / (20 * (angle / 180) / 4096);
-}
-
 void changeDoorState(){
-    if ((doorState == 1) and ps2x.ButtonReleased(PSB_R1))
+    if ((doorState == 1) and ps2x.ButtonReleased(PSB_CIRCLE))
     {
         doorState++;
         pwm.setPWM(LeftServoGround, 0, 4086);
         pwm.setPWM(RightServoGround, 0, 890);
     }
 
-    if ((doorState == 2) and ps2x.ButtonReleased(PSB_R1))
+    if ((doorState == 2) and ps2x.ButtonReleased(PSB_CIRCLE))
     {
 
         doorState++;
@@ -75,7 +70,7 @@ void changeDoorState(){
         pwm.setPWM(RightServoGround, 0, 22);
     }
 
-    if (( doorState == 3) and ps2x.ButtonReleased(PSB_R1))
+    if (( doorState == 3) and ps2x.ButtonReleased(PSB_CIRCLE))
     {
 
         doorState = doorState - 2;
@@ -154,15 +149,7 @@ void loop()
     - L1 ++1 trạng thái
     - L2 --1 trạng thái*/
 
-    // if ((pullState == 1 or pullState == 2) and ps2x.ButtonReleased(PSB_R2))
-    // {
-    //     // Serial.println(doorState);
-    //     pullState++;
-    //     pwm.setPWM(LeftServoPulley, 0, 410);
-    //     pwm.setPWM(RightServoPulley, 0, 410);
-    // }
-
-    {
+    { // pull up
         if ((delayPullState) and (ps2x.ButtonPressed(PSB_CROSS))) {
             delayPullState = false;
             prevPull = millis();
@@ -182,7 +169,7 @@ void loop()
         }
     }
 
-    // if /*((pullState == 2 or pullState == 3) and*/ (ps2x.ButtonReleased(PSB_R1))
+    // if /*((pullState == 2 or pullState == 3) and*/ (ps2x.ButtonReleased(PSB_CROSS))
     // {
     //     // Serial.println(doorState);
     //     pullState--;
