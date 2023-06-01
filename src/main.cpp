@@ -59,6 +59,31 @@ float servoConverter(float angle, float timeOn)
     return timeOn / (20 * (angle / 180) / 4096);
 }
 
+void changeDoorState(){
+    if ((doorState == 1) and ps2x.ButtonReleased(PSB_R1))
+    {
+        doorState++;
+        pwm.setPWM(LeftServoGround, 0, 4086);
+        pwm.setPWM(RightServoGround, 0, 890);
+    }
+
+    if ((doorState == 2) and ps2x.ButtonReleased(PSB_R1))
+    {
+
+        doorState++;
+        pwm.setPWM(LeftServoGround, 0, 645);
+        pwm.setPWM(RightServoGround, 0, 22);
+    }
+
+    if (( doorState == 3) and ps2x.ButtonReleased(PSB_R1))
+    {
+
+        doorState = doorState - 2;
+        pwm.setPWM(LeftServoGround, 0, 2);
+        pwm.setPWM(RightServoGround, 0, 52);
+    }
+}
+
 /*
     if true and pressed {
         true = false;
@@ -107,28 +132,20 @@ void loop()
     - R1 ++1 trạng thái
     - R2 --1 trạng thái*/
 
-    if ((doorState == 1) and ps2x.ButtonReleased(PSB_R1))
-    {
-        doorState++;
-        pwm.setPWM(LeftServoGround, 0, 4086);
-        pwm.setPWM(RightServoGround, 0, 890);
-    }
+    if ((delayDoorState) and (ps2x.ButtonPressed(PSB_CROSS))) {
+            delayDoorState = false;
+            prevDoor = millis();
+            //do something
+            changeDoorState();
+        }
 
-    if ((doorState == 2) and ps2x.ButtonReleased(PSB_R1))
-    {
-
-        doorState++;
-        pwm.setPWM(LeftServoGround, 0, 645);
-        pwm.setPWM(RightServoGround, 0, 22);
-    }
-
-    if (( doorState == 3) and ps2x.ButtonReleased(PSB_R1))
-    {
-
-        doorState = doorState - 2;
-        pwm.setPWM(LeftServoGround, 0, 2);
-        pwm.setPWM(RightServoGround, 0, 52);
-    }
+        if (millis() - prevDoor > 1000) {
+            delayDoorState = true;
+            {
+                pwm.setPWM(LeftServoGround, 0, 0);
+                pwm.setPWM(RightServoGround, 0, 0);
+            }
+        }
 
     /*CƠ CHẾ HOẠT ĐỘNG CỦA 2 SERVO TRÊN:
     - Có 2 chế độ: nâng lên và hạ thấp xuống.
