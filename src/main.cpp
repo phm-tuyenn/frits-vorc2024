@@ -10,17 +10,17 @@
 #define rumble false
 
 int tempgnd = 0;
-#define LeftServoGround 2
+#define LeftServoGround 6
 #define RightServoGround 3
-#define LeftServoPulley 6
-#define RightServoPulley 7
+// #define LeftServoPulley 4
+#define RightServoPulley 4
 
-#define LeftGroundState1 1500
-#define RightGroundState1 1500
-#define LeftGroundState2 1050
-#define RightGroundState2 1950
-#define LeftGroundState3 2400
-#define RightGroundState3 600
+#define LeftGroundState1 1800   //  45*
+#define RightGroundState1 1200 // 45*
+#define LeftGroundState2 1050 // home
+#define RightGroundState2 1950 // home
+#define LeftGroundState3 2400 // 135*
+#define RightGroundState3 600 // 135*
 
 PS2X ps2x;
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
@@ -29,7 +29,7 @@ byte error = -1;
 uint16_t tryNum = 0;
 
 // door and pull variables
-byte doorState = 1;
+bool doorState = true;
 int prevDoor;
 bool delayDoorState = true;
 
@@ -66,28 +66,19 @@ void setSpeed(int16_t left, int16_t right)
 void changeDoorState()
 {
     // Serial.print("Da vao ben trong change doorstate");
-    if ((doorState == 1) and ps2x.ButtonPressed(PSB_CIRCLE))
+    if (doorState == true)
     {
-        Serial.println(doorState);
-        doorState++;
-        pwm.writeMicroseconds(LeftServoGround, LeftGroundState1);
-        pwm.writeMicroseconds(RightServoGround, RightGroundState1);
-        //  Serial.println(doorState, LeftGroundState1);
-    }
-
-    else if ((doorState == 2) and ps2x.ButtonPressed(PSB_CIRCLE))
-    {
-        Serial.println(doorState);
-        doorState++;
+        // Serial.println(doorState); nút tam giác mở 45 độ, nút tròn mở 135 độ, 
+        // cả hai nút bấm hai lần thì quay lại ban đầu
+        doorState = false;
         pwm.writeMicroseconds(LeftServoGround, LeftGroundState2);
         pwm.writeMicroseconds(RightServoGround, RightGroundState2);
-        // Serial.println("so 2 ");
+        //  Serial.println(doorState, LeftGroundState1);
     }
-
-    else if ((doorState == 3) and ps2x.ButtonPressed(PSB_CIRCLE))
+    else if (doorState == false)
     {
-        Serial.println(doorState);
-        doorState = 1;
+        // Serial.println(doorState);
+        doorState = true;
         pwm.writeMicroseconds(LeftServoGround, LeftGroundState3);
         pwm.writeMicroseconds(RightServoGround, RightGroundState3);
         // Serial.println("so 3 ");
@@ -125,82 +116,97 @@ void setup()
 
 void loop()
 {
-    if (ps2x.Button(PSB_PAD_UP))
-        setSpeed(1023, 1023);
-    else if (ps2x.Button(PSB_PAD_LEFT))
-        setSpeed(-1023, 1023);
-    else if (ps2x.Button(PSB_PAD_RIGHT))
-        setSpeed(1023, -1023);
-    else if (ps2x.Button(PSB_PAD_DOWN))
-        setSpeed(-1023, -1023);
+    // R2 là đi thẳng, L1 là rẽ phải, 
+    // R1 là rẽ phải, L2 là đi lùi
+    // R2 cộng R1 = vừa đi thẳng vừa rẽ phải
+    // R2 cộng L1 = vừa đi thẳng vừa rẽ trái
+    // L2 cộng R1 = vừa đi lùi vừa rẽ phải
+    // L2 cộng L1 = vừa đi lùi vừa rẽ trái
+    // L2 + R2 = dừng
+    if ((ps2x.Button(PSB_R1)) and (ps2x.Button(PSB_R2))) // R1 cộng R2 = vừa đi thẳng vừa rẽ phải           //
+        setSpeed(2400, 1800);
+    else if ((ps2x.Button(PSB_R1)) and (ps2x.Button(PSB_L2))) // L1 cộng R2 = vừa đi thẳng vừa rẽ trái     //
+        setSpeed(1800, 2400);
+    else if ((ps2x.Button(PSB_L1)) and (ps2x.Button(PSB_R2))) // R1 cộng L2 = vừa lùi vừa rẽ phải
+        setSpeed(-2400, -1800);
+    else if ((ps2x.Button(PSB_L1)) and (ps2x.Button(PSB_L2))) // L1 cộng L2 = vừa lùi vừa rẽ trái
+        setSpeed(-1800, -2400);
+    else if (ps2x.Button(PSB_R1)) //
+        setSpeed(2023, 2023);
+    else if (ps2x.Button(PSB_L2))
+        setSpeed(-2023, 2023);
+    else if (ps2x.Button(PSB_R2))
+        setSpeed(2023, -2023);
+    else if (ps2x.Button(PSB_L1))
+        setSpeed(-2023, -2023);
+    else if ((ps2x.Button(PSB_L2) and ps2x.Button(PSB_R2)))
+        setSpeed(0, 0);
     else
         setSpeed(0, 0);
 
-    /*CƠ CHẾ HOẠT ĐỘNG CỦA 2 SERVO CỔNG:
-    - Kênh 2 và kênh 3.
-    - Có 3 chế độ: đóng, mở vừa, mở rộng.
-    - Sử dụng 2 phím R1-R2 để luân chuyển giữa các chế độ.
-        với 1 - đóng | 2 - mở vừa | 3 - mở rộng
-    - R1 ++1 trạng thái
-    - R2 --1 trạng thái*/
+  
 
+    // 2 SERVO CỔNG
+
+    // ĐÓNG - MỞ
     if ((delayDoorState) and (ps2x.ButtonPressed(PSB_CIRCLE)))
     {
         delayDoorState = false;
         prevDoor = millis();
         // do something
         changeDoorState();
-        // Serial.println("running");
-        // Serial.println(doorState);
-        // Serial.println(ps2x.ButtonPressed(PSB_CIRCLE));
+    }
+
+    // MỞ 45 ĐỘ
+
+    if ((delayDoorState) and (ps2x.ButtonPressed(PSB_TRIANGLE)))
+    {
+        doorState = true;
+        // LƯU Ý: Sau khi mở 45 độ, khi nhấn CIRCLE (hàm ĐÓNG/MỞ), 2 servo sẽ luôn về 
+        // trạng thái đóng, cần ấn CIRCLE 1 lần nữa để mở ra góc 135 độ.
+        delayDoorState = false;
+        prevDoor = millis();
+        // do something
+        pwm.writeMicroseconds(LeftServoGround, LeftGroundState1);
+        pwm.writeMicroseconds(RightServoGround, RightGroundState1);
     }
 
     if (millis() - prevDoor > 500)
     {
         delayDoorState = true;
         {
-            pwm.setPWM(LeftServoGround, 0, 0);
-            pwm.setPWM(RightServoGround, 0, 0);
-            // Serial.println("RUn2");
+            pwm.writeMicroseconds(LeftServoGround, 0);
+            pwm.writeMicroseconds(RightServoGround, 0);
         }
     }
 
-    /*CƠ CHẾ HOẠT ĐỘNG CỦA 2 SERVO TRÊN:
-    - Có 2 chế độ: nâng lên và hạ thấp xuống.
-    - Sử dụng 2 phím L1-L2 để luân chuyển giữa 3 chế độ.
-     với 1 - nâng lên | 2 - tạm dừng | 3 - hạ thấp
-    - L1 ++1 trạng thái
-    - L2 --1 trạng thái*/
-
-    { // pull up
-        if ((delayPullState) and (ps2x.ButtonPressed(PSB_CROSS)))
+    //
+    
+    if ((delayPullState) and (ps2x.ButtonPressed(PSB_SQUARE))) {
+            delayPullState = false;
+            prevPull = millis();
+            pwm.writeMicroseconds(RightServoPulley, 1000);
+    };
+   
+     // pull up
+    if ((delayPullState) and (ps2x.ButtonPressed(PSB_CROSS)))
         {
             delayPullState = false;
             prevPull = millis();
             // do something
-            {
-                pwm.writeMicroseconds(LeftServoPulley, 800);
-                pwm.writeMicroseconds(RightServoPulley, 2200);
-            }
+            // pwm.writeMicroseconds(LeftServoPulley, 800);
+            pwm.writeMicroseconds(RightServoPulley, 2200);
+            
         }
 
-        if (millis() - prevPull > 1000)
+    if (millis() - prevPull > 1500)
         {
             delayPullState = true;
             {
-                pwm.writeMicroseconds(LeftServoPulley, 0);
+                // pwm.writeMicroseconds(LeftServoPulley, 0);
                 pwm.writeMicroseconds(RightServoPulley, 0);
             }
         }
-    }
-
-    // if /*((pullState == 2 or pullState == 3) and*/ (ps2x.ButtonReleased(PSB_CROSS))
-    // {
-    //     // Serial.println(doorState);
-    //     pullState--;
-    //     pwm.writeMicroseconds(LeftServoPulley, 2000);
-    //     pwm.writeMicroseconds(RightServoPulley, 2000);
-    // }
-
+    
     ps2x.read_gamepad();
 }
