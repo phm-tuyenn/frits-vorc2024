@@ -123,6 +123,18 @@ void loop()
     // L2 cộng R1 = vừa đi lùi vừa rẽ phải
     // L2 cộng L1 = vừa đi lùi vừa rẽ trái
     // L2 + R2 = dừng
+    
+    bool stop = false;
+    if (ps2x.Button(PSB_R1)) //
+        setSpeed(2023, 2023);
+    else if (ps2x.Button(PSB_L2))
+        setSpeed(-2023, 2023);
+    else if (ps2x.Button(PSB_R2))
+        setSpeed(2023, -2023);
+    else if (ps2x.Button(PSB_L1))
+        setSpeed(-2023, -2023);
+    else stop = true;
+    
     if ((ps2x.Button(PSB_R1)) and (ps2x.Button(PSB_R2))) // R1 cộng R2 = vừa đi thẳng vừa rẽ phải           //
         setSpeed(2400, 1800);
     else if ((ps2x.Button(PSB_R1)) and (ps2x.Button(PSB_L2))) // L1 cộng R2 = vừa đi thẳng vừa rẽ trái     //
@@ -131,19 +143,12 @@ void loop()
         setSpeed(-2400, -1800);
     else if ((ps2x.Button(PSB_L1)) and (ps2x.Button(PSB_L2))) // L1 cộng L2 = vừa lùi vừa rẽ trái
         setSpeed(-1800, -2400);
-    else if (ps2x.Button(PSB_R1)) //
-        setSpeed(2023, 2023);
-    else if (ps2x.Button(PSB_L2))
-        setSpeed(-2023, 2023);
-    else if (ps2x.Button(PSB_R2))
-        setSpeed(2023, -2023);
-    else if (ps2x.Button(PSB_L1))
-        setSpeed(-2023, -2023);
     else if ((ps2x.Button(PSB_L2) and ps2x.Button(PSB_R2)))
         setSpeed(0, 0);
     else
-        setSpeed(0, 0);
+        stop = true;
 
+    if (stop) setSpeed(0, 0);
   
 
     // 2 SERVO CỔNG
