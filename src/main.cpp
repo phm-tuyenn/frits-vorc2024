@@ -126,23 +126,23 @@ void loop()
     
     bool stop = false;
     if (ps2x.Button(PSB_R1)) //
-        setSpeed(2023, 2023);
+        setSpeed(2623, 2623);
     else if (ps2x.Button(PSB_L2))
-        setSpeed(-2023, 2023);
+        setSpeed(-2623, 2623);
     else if (ps2x.Button(PSB_R2))
-        setSpeed(2023, -2023);
+        setSpeed(2623, -2623);
     else if (ps2x.Button(PSB_L1))
-        setSpeed(-2023, -2023);
+        setSpeed(-2623, -2623);
     else stop = true;
     
     if ((ps2x.Button(PSB_R1)) and (ps2x.Button(PSB_R2))) // R1 cộng R2 = vừa đi thẳng vừa rẽ phải           //
-        setSpeed(2400, 1800);
+        setSpeed(3200, 800);
     else if ((ps2x.Button(PSB_R1)) and (ps2x.Button(PSB_L2))) // L1 cộng R2 = vừa đi thẳng vừa rẽ trái     //
-        setSpeed(1800, 2400);
+        setSpeed(800,3200);
     else if ((ps2x.Button(PSB_L1)) and (ps2x.Button(PSB_R2))) // R1 cộng L2 = vừa lùi vừa rẽ phải
-        setSpeed(-2400, -1800);
+        setSpeed(-3200, -800);
     else if ((ps2x.Button(PSB_L1)) and (ps2x.Button(PSB_L2))) // L1 cộng L2 = vừa lùi vừa rẽ trái
-        setSpeed(-1800, -2400);
+        setSpeed(-800, -3200);
     else if ((ps2x.Button(PSB_L2) and ps2x.Button(PSB_R2)))
         setSpeed(0, 0);
     else
@@ -169,8 +169,10 @@ void loop()
         doorState = true;
         // LƯU Ý: Sau khi mở 45 độ, khi nhấn CIRCLE (hàm ĐÓNG/MỞ), 2 servo sẽ luôn về 
         // trạng thái đóng, cần ấn CIRCLE 1 lần nữa để mở ra góc 135 độ.
+
         delayDoorState = false;
         prevDoor = millis();
+
         // do something
         pwm.writeMicroseconds(LeftServoGround, LeftGroundState1);
         pwm.writeMicroseconds(RightServoGround, RightGroundState1);
@@ -182,7 +184,7 @@ void loop()
         {
             pwm.writeMicroseconds(LeftServoGround, 0);
             pwm.writeMicroseconds(RightServoGround, 0);
-        }
+        } 
     }
 
     //
