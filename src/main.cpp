@@ -9,6 +9,7 @@
 #define pressures false
 #define rumble false
 
+
 int tempgnd = 0;
 #define LeftServoGround 6
 #define RightServoGround 3
@@ -36,7 +37,9 @@ bool delayDoorState = true;
 byte pullState = 1;
 int prevPull;
 bool delayPullState = true;
-//
+
+//hw timer definition
+hw_timer_t *ContTimer = NULL;
 
 void setSpeed(int16_t left, int16_t right)
 {
@@ -98,25 +101,8 @@ void changeDoorState()
     }
     */
 
-void setup()
-{
-    Serial.begin(115200);
-    while (error != 0)
-    {
-        delay(1000);
-        error = ps2x.config_gamepad(PS2_CLK, PS2_CMD, PS2_SEL, PS2_DAT, pressures, rumble);
-    }
-    pwm.begin();
-    pwm.setOscillatorFrequency(27000000);
-    pwm.setPWMFreq(60);
-    Wire.setClock(400000);
-    pwm.writeMicroseconds(LeftServoGround, 1500);
-    pwm.writeMicroseconds(RightServoGround, 1500);
-}
-
-void loop()
-{
-    // R2 là đi thẳng, L1 là rẽ phải, 
+void IRAM_ATTR ControllerReadAndExecuteTimed(){  //IRAM_ATTR makes the function resides in ram which is nescessary in fast timer ISR's (may reach the RAM limit)
+        // R2 là đi thẳng, L1 là rẽ phải, 
     // R1 là rẽ phải, L2 là đi lùi
     // R2 cộng R1 = vừa đi thẳng vừa rẽ phải
     // R2 cộng L1 = vừa đi thẳng vừa rẽ trái
@@ -216,4 +202,31 @@ void loop()
         }
     
     ps2x.read_gamepad();
+}
+
+void setup()
+{
+    Serial.begin(115200);
+    while (error != 0)
+    {
+        delay(1000);
+        error = ps2x.config_gamepad(PS2_CLK, PS2_CMD, PS2_SEL, PS2_DAT, pressures, rumble);
+    }
+    pwm.begin();
+    pwm.setOscillatorFrequency(27000000);
+    pwm.setPWMFreq(60);
+    Wire.setClock(400000);
+    pwm.writeMicroseconds(LeftServoGround, 1500);
+    pwm.writeMicroseconds(RightServoGround, 1500);
+
+    ContTimer = timerBegin(0, 80, true);
+    timerAttachInterrupt(ContTimer, &ControllerReadAndExecuteTimed, true);
+    timerAlarmWrite(ContTimer, 1000, true);
+    timerAlarmEnable(ContTimer);
+
+}
+
+void loop()
+{
+
 }
