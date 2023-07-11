@@ -9,8 +9,9 @@
 #define pressures false
 #define rumble false
 
+#define TIMER_LENGTH 800
 
-int tempgnd = 0;
+uint8_t tempgnd = 0;
 #define LeftServoGround 6
 #define RightServoGround 3
 // #define LeftServoPulley 4
@@ -38,8 +39,34 @@ byte pullState = 1;
 int prevPull;
 bool delayPullState = true;
 
+uint8_t Lmotor = 0;
+uint8_t Rmotor = 0;
+
+uint8_t Lstick_Y;
+uint8_t Rstick_X;
+
+struct 
+{
+    bool DoorState135;
+    bool Doorstate45;
+    bool GroundState;
+    uint16_t RightMotVal;
+    uint16_t LeftMotVal;
+} ContDataDecode;
+
+struct 
+{
+    uint16_t Lstick_Y;
+    uint16_t Rstick_X;
+    bool Button_Circle;
+    bool Button_Triangle;
+    bool Button_Cross;
+    bool Button_Square;
+} ContData;
+
+
 //hw timer definition
-hw_timer_t *ContTimer = NULL;
+hw_timer_t *ContTimer;
 
 void setSpeed(int16_t left, int16_t right)
 {
@@ -101,7 +128,46 @@ void changeDoorState()
     }
     */
 
-void IRAM_ATTR ControllerReadAndExecuteTimed(){  //IRAM_ATTR makes the function resides in ram which is nescessary in fast timer ISR's (may reach the RAM limit)
+
+void MapMotor(int StickLY, int StickRX){
+
+    if(StickRX >= 0){
+        ContDataDecode.RightMotVal = ContDataDecode.LeftMotVal = map(StickLY, -255, 255, 0, 3072);
+        ContDataDecode.LeftMotVal += 1024;
+    }
+    if(StickRX <= 0){
+        ContDataDecode.RightMotVal = ContDataDecode.LeftMotVal = map(StickLY, -255, 255, 0, 3072);
+        ContDataDecode.RightMotVal += 1024;
+    }  
+}
+
+void setSpeed(int16_t left, int16_t right)
+{
+    if (left >= 0)
+    {
+        pwm.setPWM(8, 0, left);
+        pwm.setPWM(9, 0, 0);
+    }
+    else if (left < 0)
+    {
+        pwm.setPWM(8, 0, 0);
+        pwm.setPWM(9, 0, -left);
+    }
+
+    if (right >= 0)
+    {
+        pwm.setPWM(10, 0, right);
+        pwm.setPWM(11, 0, 0);
+    }
+    else if (right < 0)
+    {
+        pwm.setPWM(10, 0, 0);
+        pwm.setPWM(11, 0, -right);
+    }
+}
+
+
+void IRAM_ATTR ControllerReadTimed(){  //IRAM_ATTR makes the function resides in ram which is nescessary in fast timer ISR's (may reach the RAM limit)
         // R2 là đi thẳng, L1 là rẽ phải, 
     // R1 là rẽ phải, L2 là đi lùi
     // R2 cộng R1 = vừa đi thẳng vừa rẽ phải
@@ -109,100 +175,14 @@ void IRAM_ATTR ControllerReadAndExecuteTimed(){  //IRAM_ATTR makes the function 
     // L2 cộng R1 = vừa đi lùi vừa rẽ phải
     // L2 cộng L1 = vừa đi lùi vừa rẽ trái
     // L2 + R2 = dừng
-    
-    bool stop = false;
-    if (ps2x.Button(PSB_R1)) //
-        setSpeed(2623, 2623);
-    else if (ps2x.Button(PSB_L2))
-        setSpeed(-2623, 2623);
-    else if (ps2x.Button(PSB_R2))
-        setSpeed(2623, -2623);
-    else if (ps2x.Button(PSB_L1))
-        setSpeed(-2623, -2623);
-    else stop = true;
-    
-    if ((ps2x.Button(PSB_R1)) and (ps2x.Button(PSB_R2))) // R1 cộng R2 = vừa đi thẳng vừa rẽ phải           //
-        setSpeed(3200, 800);
-    else if ((ps2x.Button(PSB_R1)) and (ps2x.Button(PSB_L2))) // L1 cộng R2 = vừa đi thẳng vừa rẽ trái     //
-        setSpeed(800,3200);
-    else if ((ps2x.Button(PSB_L1)) and (ps2x.Button(PSB_R2))) // R1 cộng L2 = vừa lùi vừa rẽ phải
-        setSpeed(-3200, -800);
-    else if ((ps2x.Button(PSB_L1)) and (ps2x.Button(PSB_L2))) // L1 cộng L2 = vừa lùi vừa rẽ trái
-        setSpeed(-800, -3200);
-    else if ((ps2x.Button(PSB_L2) and ps2x.Button(PSB_R2)))
-        setSpeed(0, 0);
-    else
-        stop = true;
-
-    if (stop) setSpeed(0, 0);
-  
-
-    // 2 SERVO CỔNG
-
-    // ĐÓNG - MỞ
-    if ((delayDoorState) and (ps2x.ButtonPressed(PSB_CIRCLE)))
-    {
-        delayDoorState = false;
-        prevDoor = millis();
-        // do something
-        changeDoorState();
-    }
-
-    // MỞ 45 ĐỘ
-
-    if ((delayDoorState) and (ps2x.ButtonPressed(PSB_TRIANGLE)))
-    {
-        doorState = true;
-        // LƯU Ý: Sau khi mở 45 độ, khi nhấn CIRCLE (hàm ĐÓNG/MỞ), 2 servo sẽ luôn về 
-        // trạng thái đóng, cần ấn CIRCLE 1 lần nữa để mở ra góc 135 độ.
-
-        delayDoorState = false;
-        prevDoor = millis();
-
-        // do something
-        pwm.writeMicroseconds(LeftServoGround, LeftGroundState1);
-        pwm.writeMicroseconds(RightServoGround, RightGroundState1);
-    }
-
-    if (millis() - prevDoor > 500)
-    {
-        delayDoorState = true;
-        {
-            pwm.writeMicroseconds(LeftServoGround, 0);
-            pwm.writeMicroseconds(RightServoGround, 0);
-        } 
-    }
-
-    //
-    
-    if ((delayPullState) and (ps2x.ButtonPressed(PSB_SQUARE))) {
-            delayPullState = false;
-            prevPull = millis();
-            pwm.writeMicroseconds(RightServoPulley, 1000);
-    };
-   
-     // pull up
-    if ((delayPullState) and (ps2x.ButtonPressed(PSB_CROSS)))
-        {
-            delayPullState = false;
-            prevPull = millis();
-            // do something
-            // pwm.writeMicroseconds(LeftServoPulley, 800);
-            pwm.writeMicroseconds(RightServoPulley, 2200);
-            
-        }
-
-    if (millis() - prevPull > 1500)
-        {
-            delayPullState = true;
-            {
-                // pwm.writeMicroseconds(LeftServoPulley, 0);
-                pwm.writeMicroseconds(RightServoPulley, 0);
-            }
-        }
-    
-    ps2x.read_gamepad();
+    ContData.Lstick_Y = ps2x.Analog(PSS_LY);
+    ContData.Rstick_X = ps2x.Analog(PSS_RX);
+    ContData.Button_Circle = ps2x.ButtonPressed(PSB_CIRCLE);
+    ContData.Button_Cross = ps2x.ButtonPressed(PSB_CROSS);
+    ContData.Button_Square = ps2x.ButtonPressed(PSB_SQUARE);
+    ContData.Button_Triangle = ps2x.ButtonPressed(PSB_TRIANGLE);
 }
+
 
 void setup()
 {
@@ -219,14 +199,44 @@ void setup()
     pwm.writeMicroseconds(LeftServoGround, 1500);
     pwm.writeMicroseconds(RightServoGround, 1500);
 
-    ContTimer = timerBegin(0, 80, true);
-    timerAttachInterrupt(ContTimer, &ControllerReadAndExecuteTimed, true);
-    timerAlarmWrite(ContTimer, 1000, true);
-    timerAlarmEnable(ContTimer);
+    // ContTimer = timerBegin(0, 80, true);
+    // timerAttachInterrupt(ContTimer, &ControllerReadAndExecuteTimed, true);
+    // timerAlarmWrite(ContTimer, TIMER_LENGTH, true);
+    // timerAlarmEnable(ContTimer);
 
+
+    ContTimer = timerBegin(0, 80, true);
+    timerAttachInterrupt(ContTimer, &ControllerReadTimed, true);
+    timerAlarmWrite(ContTimer, TIMER_LENGTH, true);
+    timerAlarmEnable(ContTimer);
+    Serial.println("isr timer enabled");
 }
+
+void changeDoorState()
+{
+    // Serial.print("Da vao ben trong change doorstate");
+    if (doorState == true)
+    {
+        // Serial.println(doorState); nút tam giác mở 45 độ, nút tròn mở 135 độ, 
+        // cả hai nút bấm hai lần thì quay lại ban đầu
+        doorState = false;
+        pwm.writeMicroseconds(LeftServoGround, LeftGroundState2);
+        pwm.writeMicroseconds(RightServoGround, RightGroundState2);
+        //  Serial.println(doorState, LeftGroundState1);
+    }
+    else if (doorState == false)
+    {
+        // Serial.println(doorState);
+        doorState = true;
+        pwm.writeMicroseconds(LeftServoGround, LeftGroundState3);
+        pwm.writeMicroseconds(RightServoGround, RightGroundState3);
+        // Serial.println("so 3 ");
+    }
+}
+
 
 void loop()
 {
-
+    MapMotor(ContData.Lstick_Y, ContData.Rstick_X);
+    setSpeed(ContDataDecode.LeftMotVal, ContDataDecode.RightMotVal);
 }
