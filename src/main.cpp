@@ -1,6 +1,11 @@
 #include <Arduino.h>
 #include <PS2X_lib.h>
 #include <Adafruit_PWMServoDriver.h>
+// ************************************************
+//                    DEBUG PRINT
+// ************************************************
+
+#define DBG_PRINT
 
 #define PS2_CLK 14
 #define PS2_CMD 13
@@ -9,23 +14,32 @@
 #define pressures false
 #define rumble false
 
-#define TIMER_LENGTH 800
+#define TIMER_LENGTH1 20000
+#define TIMER_LENGTH2 500000
 
 uint8_t tempgnd = 0;
 #define LeftServoGround 6
-#define RightServoGround 3
-// #define LeftServoPulley 4
+#define RightServoGround 2
+#define LeftServoPulley 5
 #define RightServoPulley 4
 
-#define LeftGroundState1 1800   //  45*
-#define RightGroundState1 1200 // 45*
-#define LeftGroundState2 1050 // home
-#define RightGroundState2 1950 // home
-#define LeftGroundState3 2400 // 135*
-#define RightGroundState3 600 // 135*
+#define LeftPullState1 1550   //  45*
+#define RightPullState1 1500     
+#define LeftPullState2 1050 // home
+#define RightPullState2 1950 // home
+#define LeftPullState3 2400 // 135*
+#define RightPullState3 600 // 135*
+
+
+
+#define SPEED_CONST 4095
 
 PS2X ps2x;
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
+//hw timer definition
+hw_timer_t *ContTimer0;
+hw_timer_t *ContTimer1;
+hw_timer_t *ContTimer2;
 
 byte error = -1;
 uint16_t tryNum = 0;
@@ -33,7 +47,6 @@ uint16_t tryNum = 0;
 // door and pull variables
 bool doorState = true;
 int prevDoor;
-bool delayDoorState = true;
 
 byte pullState = 1;
 int prevPull;
@@ -47,11 +60,20 @@ uint8_t Rstick_X;
 
 struct 
 {
-    bool DoorState135;
-    bool Doorstate45;
-    bool GroundState;
-    uint16_t RightMotVal;
-    uint16_t LeftMotVal;
+    bool DoorState;
+    bool DoorMode;
+    bool PullState;
+    bool GroundPos;
+    signed int  RightMotVal;
+    signed int LeftMotVal;
+    int mappedLJoyY;
+    int mappedRJoyX;
+    int mappedLJoyYTurning;
+    int mappedRJoyXTurning;
+    bool DelayState = true;
+    bool PullDelayState = true;
+    bool wtf;
+
 } ContDataDecode;
 
 struct 
@@ -62,84 +84,15 @@ struct
     bool Button_Triangle;
     bool Button_Cross;
     bool Button_Square;
+    bool Button_L1;
+    bool Button_L2;
+    bool Button_R1;
+    bool Button_R2;
 } ContData;
 
-
-//hw timer definition
-hw_timer_t *ContTimer;
-
-void setSpeed(int16_t left, int16_t right)
-{
-    if (left >= 0)
-    {
-        pwm.setPWM(8, 0, left);
-        pwm.setPWM(9, 0, 0);
-    }
-    else if (left < 0)
-    {
-        pwm.setPWM(8, 0, 0);
-        pwm.setPWM(9, 0, -left);
-    }
-
-    if (right >= 0)
-    {
-        pwm.setPWM(10, 0, right);
-        pwm.setPWM(11, 0, 0);
-    }
-    else if (right < 0)
-    {
-        pwm.setPWM(10, 0, 0);
-        pwm.setPWM(11, 0, -right);
-    }
-}
-
-void changeDoorState()
-{
-    // Serial.print("Da vao ben trong change doorstate");
-    if (doorState == true)
-    {
-        // Serial.println(doorState); nút tam giác mở 45 độ, nút tròn mở 135 độ, 
-        // cả hai nút bấm hai lần thì quay lại ban đầu
-        doorState = false;
-        pwm.writeMicroseconds(LeftServoGround, LeftGroundState2);
-        pwm.writeMicroseconds(RightServoGround, RightGroundState2);
-        //  Serial.println(doorState, LeftGroundState1);
-    }
-    else if (doorState == false)
-    {
-        // Serial.println(doorState);
-        doorState = true;
-        pwm.writeMicroseconds(LeftServoGround, LeftGroundState3);
-        pwm.writeMicroseconds(RightServoGround, RightGroundState3);
-        // Serial.println("so 3 ");
-    }
-}
-
-/*
-    if true and pressed {
-        true = false;
-        prev = millis();
-        do something
-    }
-
-    if millis() - prev > time {
-        false = true
-        stop do something
-    }
-    */
+bool ContCheckFlag = false;
 
 
-void MapMotor(int StickLY, int StickRX){
-
-    if(StickRX >= 0){
-        ContDataDecode.RightMotVal = ContDataDecode.LeftMotVal = map(StickLY, -255, 255, 0, 3072);
-        ContDataDecode.LeftMotVal += 1024;
-    }
-    if(StickRX <= 0){
-        ContDataDecode.RightMotVal = ContDataDecode.LeftMotVal = map(StickLY, -255, 255, 0, 3072);
-        ContDataDecode.RightMotVal += 1024;
-    }  
-}
 
 void setSpeed(int16_t left, int16_t right)
 {
@@ -166,26 +119,119 @@ void setSpeed(int16_t left, int16_t right)
     }
 }
 
-
+void MapMotor(int LJoyY,int RJoyX){
+    int TempLeftMotVal ;
+    int TempRightMotVal ;
+    ContDataDecode.mappedLJoyY = map(LJoyY, 255, 0, -4000, 4000);
+    ContDataDecode.mappedRJoyX = map(RJoyX, 0, 255, -4000, 4000);
+    ContDataDecode.mappedLJoyYTurning = map(LJoyY, 255, 0, -1700, 1700);
+    ContDataDecode.mappedRJoyXTurning = map(RJoyX, 0, 255, -1700, 1700);
+    if (ContDataDecode.mappedRJoyX) // Turning
+    {
+        TempLeftMotVal = ContDataDecode.mappedLJoyYTurning + ContDataDecode.mappedRJoyXTurning;
+        TempRightMotVal = ContDataDecode.mappedLJoyYTurning - ContDataDecode.mappedRJoyXTurning;
+    }
+    else // Forward or Reverse
+    {
+        TempLeftMotVal =  ContDataDecode.mappedLJoyY;
+        TempRightMotVal = ContDataDecode.mappedLJoyY;
+    }
+    ContDataDecode.LeftMotVal = TempLeftMotVal;
+    ContDataDecode.RightMotVal = TempRightMotVal;
+}
+ 
 void IRAM_ATTR ControllerReadTimed(){  //IRAM_ATTR makes the function resides in ram which is nescessary in fast timer ISR's (may reach the RAM limit)
-        // R2 là đi thẳng, L1 là rẽ phải, 
-    // R1 là rẽ phải, L2 là đi lùi
-    // R2 cộng R1 = vừa đi thẳng vừa rẽ phải
-    // R2 cộng L1 = vừa đi thẳng vừa rẽ trái
-    // L2 cộng R1 = vừa đi lùi vừa rẽ phải
-    // L2 cộng L1 = vừa đi lùi vừa rẽ trái
-    // L2 + R2 = dừng
-    ContData.Lstick_Y = ps2x.Analog(PSS_LY);
-    ContData.Rstick_X = ps2x.Analog(PSS_RX);
+    ps2x.read_gamepad(0,0);
+    ContData.Lstick_Y =  ps2x.Analog(PSS_LY);
+    ContData.Rstick_X =  ps2x.Analog(PSS_RX);
     ContData.Button_Circle = ps2x.ButtonPressed(PSB_CIRCLE);
     ContData.Button_Cross = ps2x.ButtonPressed(PSB_CROSS);
     ContData.Button_Square = ps2x.ButtonPressed(PSB_SQUARE);
     ContData.Button_Triangle = ps2x.ButtonPressed(PSB_TRIANGLE);
+    ContData.Button_L1 = ps2x.ButtonPressed(PSB_L1);
+    ContData.Button_L2 = ps2x.ButtonPressed(PSB_L2);
+    ContData.Button_R1 = ps2x.Button(PSB_R1);
+    ContData.Button_R2 = ps2x.Button(PSB_R2);
+    ContCheckFlag = true;
+
+}
+
+void ServoDecd(){
+    if(ContData.Button_L1 & ContDataDecode.DelayState){
+        ContDataDecode.DelayState = false;
+        ContDataDecode.DoorState = !ContDataDecode.DoorState;
+        if(ContDataDecode.DoorMode){
+            ContDataDecode.DoorMode = false;
+        }
+    }
+        
+    if(ContData.Button_L2 & ContDataDecode.DelayState){
+        ContDataDecode.DelayState = false;
+        ContDataDecode.DoorMode = !ContDataDecode.DoorMode;
+        if(!ContDataDecode.DoorState){
+            ContDataDecode.DoorState = !ContDataDecode.DoorState;
+        }
+    }
+}
+
+void IRAM_ATTR ServoLock(){
+    if(ContDataDecode.DelayState == false){
+        ContDataDecode.DelayState = true;
+    }
+}
+
+void ServoCont(){
+    unsigned long time = 5000L;
+    int LeftOpenServoVal;
+    int RightOpenServoVal;
+    if (ContDataDecode.DoorMode)
+    {
+        LeftOpenServoVal = LeftPullState1;
+        RightOpenServoVal = RightPullState1;
+    } 
+    else {
+        LeftOpenServoVal = LeftPullState3;
+        RightOpenServoVal = RightPullState3;
+    }
+    
+    if(ContDataDecode.DoorState){
+        pwm.writeMicroseconds(LeftServoGround, LeftOpenServoVal);
+        pwm.writeMicroseconds(RightServoGround, RightOpenServoVal);
+        
+    }
+    else
+    {
+        pwm.writeMicroseconds(LeftServoGround, LeftPullState2);
+        pwm.writeMicroseconds(RightServoGround, RightPullState2);
+    }
+    
+    if(ContData.Button_R1){
+        pwm.writeMicroseconds(LeftServoPulley, 1000);
+        pwm.writeMicroseconds(RightServoPulley, 2200);
+    }
+    if(ContData.Button_R2){
+        pwm.writeMicroseconds(LeftServoPulley, 2200);
+        pwm.writeMicroseconds(RightServoPulley, 1000);
+    }
+    if(!ContData.Button_R1 & !ContData.Button_R2){
+        pwm.writeMicroseconds(LeftServoPulley, 0);
+        pwm.writeMicroseconds(RightServoPulley, 0);
+    }
+
+}
+    
+void IRAM_ATTR PullstateChange(){
+    ContDataDecode.wtf = true;
+    ContDataDecode.PullState = false;
+
 }
 
 
+
 void setup()
-{
+{   
+  
+
     Serial.begin(115200);
     while (error != 0)
     {
@@ -196,47 +242,102 @@ void setup()
     pwm.setOscillatorFrequency(27000000);
     pwm.setPWMFreq(60);
     Wire.setClock(400000);
+
     pwm.writeMicroseconds(LeftServoGround, 1500);
     pwm.writeMicroseconds(RightServoGround, 1500);
 
-    // ContTimer = timerBegin(0, 80, true);
-    // timerAttachInterrupt(ContTimer, &ControllerReadAndExecuteTimed, true);
-    // timerAlarmWrite(ContTimer, TIMER_LENGTH, true);
-    // timerAlarmEnable(ContTimer);
+    pwm.setPin(8,0);
+    pwm.setPin(9,0);
+    pwm.setPin(10,0);
+    pwm.setPin(11,0);
 
+    ContTimer0 = timerBegin(0, 80, true);
+    timerAttachInterrupt(ContTimer0, &ControllerReadTimed, true);
+    timerAlarmWrite(ContTimer0, TIMER_LENGTH1, true);
+    timerAlarmEnable(ContTimer0);
 
-    ContTimer = timerBegin(0, 80, true);
-    timerAttachInterrupt(ContTimer, &ControllerReadTimed, true);
-    timerAlarmWrite(ContTimer, TIMER_LENGTH, true);
-    timerAlarmEnable(ContTimer);
-    Serial.println("isr timer enabled");
+    ContTimer1 = timerBegin(1, 80, true);
+    timerAttachInterrupt(ContTimer1, &ServoLock, true);
+    timerAlarmWrite(ContTimer1, TIMER_LENGTH2, true);
+    timerAlarmEnable(ContTimer1);
+
+    ContTimer2 = timerBegin(2, 80, true);
+    timerAttachInterrupt(ContTimer2, &PullstateChange, true);
+    timerAlarmWrite(ContTimer2,750000 , true);
+    timerAlarmEnable(ContTimer2);
+
+    Serial.println("isr timers enabled");
 }
-
-void changeDoorState()
-{
-    // Serial.print("Da vao ben trong change doorstate");
-    if (doorState == true)
-    {
-        // Serial.println(doorState); nút tam giác mở 45 độ, nút tròn mở 135 độ, 
-        // cả hai nút bấm hai lần thì quay lại ban đầu
-        doorState = false;
-        pwm.writeMicroseconds(LeftServoGround, LeftGroundState2);
-        pwm.writeMicroseconds(RightServoGround, RightGroundState2);
-        //  Serial.println(doorState, LeftGroundState1);
-    }
-    else if (doorState == false)
-    {
-        // Serial.println(doorState);
-        doorState = true;
-        pwm.writeMicroseconds(LeftServoGround, LeftGroundState3);
-        pwm.writeMicroseconds(RightServoGround, RightGroundState3);
-        // Serial.println("so 3 ");
-    }
-}
-
 
 void loop()
-{
+{   
     MapMotor(ContData.Lstick_Y, ContData.Rstick_X);
     setSpeed(ContDataDecode.LeftMotVal, ContDataDecode.RightMotVal);
+    ServoDecd();
+    ServoCont();
+    #ifdef DBG_PRINT
+    if(ContCheckFlag == true){
+
+        Serial.print("ContLY:");
+        Serial.print(ContData.Lstick_Y);
+        Serial.print(",");
+        Serial.print("ContRX:");
+        Serial.println(ContData.Rstick_X);
+
+        Serial.print("MappedContLY:");
+        Serial.print(ContDataDecode.mappedLJoyY);
+        Serial.print(",");
+        Serial.print("MappedContRX:");
+        Serial.println(ContDataDecode.mappedRJoyX);
+    
+        Serial.print("MotLeft:");
+        Serial.print(ContDataDecode.LeftMotVal);
+        Serial.print(",");
+        Serial.print("MotRight:");
+        Serial.println(ContDataDecode.RightMotVal);
+        ContCheckFlag = false;
+
+        Serial.print("Cross: ");
+        Serial.print(ContData.Button_Cross);
+        Serial.print(", ");
+        Serial.print("Triangle: ");
+        Serial.print(ContData.Button_Triangle);
+        Serial.print(", ");
+        Serial.print("Circle: ");
+        Serial.print(ContData.Button_Circle);
+        Serial.print(", ");
+        Serial.print("Square: ");
+        Serial.println(ContData.Button_Square);
+
+        Serial.print("L1: ");
+        Serial.print(ContData.Button_L1);
+        Serial.print(", ");
+        Serial.print("L2: ");
+        Serial.print(ContData.Button_L2);
+        Serial.print(", ");
+        Serial.print("R1: ");
+        Serial.println(ContData.Button_R1);
+
+        Serial.print("DoorState:");
+        Serial.print(ContDataDecode.DoorState);
+        Serial.print(", ");
+        Serial.print("DoorMode:");
+        Serial.println(ContDataDecode.DoorMode);
+
+        Serial.print("PullState:");
+        Serial.print(ContDataDecode.PullState);
+        Serial.print(", ");
+        Serial.print("PullPos:");
+        Serial.print(ContDataDecode.GroundPos);
+        Serial.print(", ");
+        Serial.println(ContDataDecode.wtf); 
+
+        Serial.println("\n");
+        Serial.println("\n");
+        Serial.println("\n");
+        Serial.println("\n");
+        Serial.println("\n");
+        Serial.println("\n");   
+        } 
+    #endif
 }

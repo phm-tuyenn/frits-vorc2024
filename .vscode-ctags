@@ -1,0 +1,271 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/lam/vrc2022/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ATT_CLR	lib/PS2X/PS2X_lib.cpp	/^inline void PS2X::ATT_CLR(void) {$/;"	f	class:PS2X	typeref:typename:void
+ATT_SET	lib/PS2X/PS2X_lib.cpp	/^inline void  PS2X::ATT_SET(void) {$/;"	f	class:PS2X	typeref:typename:void
+Adafruit_PWMServoDriver	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^Adafruit_PWMServoDriver::Adafruit_PWMServoDriver()$/;"	f	class:Adafruit_PWMServoDriver
+Adafruit_PWMServoDriver	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^Adafruit_PWMServoDriver::Adafruit_PWMServoDriver(const uint8_t addr)$/;"	f	class:Adafruit_PWMServoDriver
+Adafruit_PWMServoDriver	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^Adafruit_PWMServoDriver::Adafruit_PWMServoDriver(const uint8_t addr,$/;"	f	class:Adafruit_PWMServoDriver
+Adafruit_PWMServoDriver	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^class Adafruit_PWMServoDriver {$/;"	c
+Analog	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::Analog(byte button) {$/;"	f	class:PS2X	typeref:typename:byte
+BEGIN_SPI	lib/PS2X/PS2X_lib.cpp	/^inline void PS2X::BEGIN_SPI(void) {$/;"	f	class:PS2X	typeref:typename:void
+BEGIN_SPI_NOATT	lib/PS2X/PS2X_lib.cpp	/^inline void PS2X::BEGIN_SPI_NOATT(void) {$/;"	f	class:PS2X	typeref:typename:void
+BLUE_FRET	lib/PS2X/PS2X_lib.h	/^#define BLUE_FRET	/;"	d
+Button	lib/PS2X/PS2X_lib.cpp	/^boolean PS2X::Button(uint16_t button) {$/;"	f	class:PS2X	typeref:typename:boolean
+ButtonDataByte	lib/PS2X/PS2X_lib.cpp	/^unsigned int PS2X::ButtonDataByte() {$/;"	f	class:PS2X	typeref:typename:unsigned int
+ButtonPressed	lib/PS2X/PS2X_lib.cpp	/^boolean PS2X::ButtonPressed(unsigned int button) {$/;"	f	class:PS2X	typeref:typename:boolean
+ButtonReleased	lib/PS2X/PS2X_lib.cpp	/^boolean PS2X::ButtonReleased(unsigned int button) {$/;"	f	class:PS2X	typeref:typename:boolean
+Button_Circle	src/main.cpp	/^    bool Button_Circle;$/;"	m	struct:__anon6bd514d20208	typeref:typename:bool	file:
+Button_Cross	src/main.cpp	/^    bool Button_Cross;$/;"	m	struct:__anon6bd514d20208	typeref:typename:bool	file:
+Button_Square	src/main.cpp	/^    bool Button_Square;$/;"	m	struct:__anon6bd514d20208	typeref:typename:bool	file:
+Button_Triangle	src/main.cpp	/^    bool Button_Triangle;$/;"	m	struct:__anon6bd514d20208	typeref:typename:bool	file:
+CHK	lib/PS2X/PS2X_lib.h	/^#define CHK(/;"	d
+CLK_CLR	lib/PS2X/PS2X_lib.cpp	/^inline void  PS2X::CLK_CLR(void) {$/;"	f	class:PS2X	typeref:typename:void
+CLK_SET	lib/PS2X/PS2X_lib.cpp	/^inline void  PS2X::CLK_SET(void) {$/;"	f	class:PS2X	typeref:typename:void
+CLR	lib/PS2X/PS2X_lib.h	/^#define CLR(/;"	d
+CMD_CLR	lib/PS2X/PS2X_lib.cpp	/^inline void  PS2X::CMD_CLR(void) {$/;"	f	class:PS2X	typeref:typename:void
+CMD_SET	lib/PS2X/PS2X_lib.cpp	/^inline void  PS2X::CMD_SET(void) {$/;"	f	class:PS2X	typeref:typename:void
+CTRL_BITRATE	lib/PS2X/PS2X_lib.h	/^#define CTRL_BITRATE /;"	d
+CTRL_BYTE_DELAY	lib/PS2X/PS2X_lib.h	/^#define CTRL_BYTE_DELAY /;"	d
+CTRL_CLK	lib/PS2X/PS2X_lib.h	/^#define CTRL_CLK /;"	d
+CTRL_DIVIDER	lib/PS2X/PS2X_lib.h	/^#define CTRL_DIVIDER /;"	d
+CTRL_PACKET_DELAY	lib/PS2X/PS2X_lib.h	/^#define CTRL_PACKET_DELAY /;"	d
+ContData	src/main.cpp	/^} ContData;$/;"	v	typeref:struct:__anon6bd514d20208
+ContDataDecode	src/main.cpp	/^} ContDataDecode;$/;"	v	typeref:struct:__anon6bd514d20108
+ContTimer	src/main.cpp	/^hw_timer_t *ContTimer;$/;"	v	typeref:typename:hw_timer_t *
+ControllerReadTimed	src/main.cpp	/^void IRAM_ATTR ControllerReadTimed(){  \/\/IRAM_ATTR makes the function resides in ram which is /;"	f	typeref:typename:void IRAM_ATTR
+DAT_CHK	lib/PS2X/PS2X_lib.cpp	/^inline bool PS2X::DAT_CHK(void) {$/;"	f	class:PS2X	typeref:typename:bool
+DOWN_STRUM	lib/PS2X/PS2X_lib.h	/^#define DOWN_STRUM	/;"	d
+DoorState135	src/main.cpp	/^    bool DoorState135;$/;"	m	struct:__anon6bd514d20108	typeref:typename:bool	file:
+Doorstate45	src/main.cpp	/^    bool Doorstate45;$/;"	m	struct:__anon6bd514d20108	typeref:typename:bool	file:
+END_SPI	lib/PS2X/PS2X_lib.cpp	/^inline void PS2X::END_SPI(void) {$/;"	f	class:PS2X	typeref:typename:void
+END_SPI_NOATT	lib/PS2X/PS2X_lib.cpp	/^inline void PS2X::END_SPI_NOATT(void) {$/;"	f	class:PS2X	typeref:typename:void
+FREQUENCY_OSCILLATOR	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define FREQUENCY_OSCILLATOR /;"	d
+GREEN_FRET	lib/PS2X/PS2X_lib.h	/^#define GREEN_FRET	/;"	d
+GroundState	src/main.cpp	/^    bool GroundState;$/;"	m	struct:__anon6bd514d20108	typeref:typename:bool	file:
+HAVE_PORTREG_IO	lib/PS2X/PS2X_lib.h	/^#define HAVE_PORTREG_IO$/;"	d
+HAVE_PORTREG_SC	lib/PS2X/PS2X_lib.h	/^#define HAVE_PORTREG_SC$/;"	d
+LEFT_STRUM	lib/PS2X/PS2X_lib.h	/^#define LEFT_STRUM	/;"	d
+LeftGroundState1	src/main.cpp	/^#define LeftGroundState1 /;"	d	file:
+LeftGroundState2	src/main.cpp	/^#define LeftGroundState2 /;"	d	file:
+LeftGroundState3	src/main.cpp	/^#define LeftGroundState3 /;"	d	file:
+LeftMotVal	src/main.cpp	/^    uint16_t LeftMotVal;$/;"	m	struct:__anon6bd514d20108	typeref:typename:uint16_t	file:
+LeftServoGround	src/main.cpp	/^#define LeftServoGround /;"	d	file:
+Lmotor	src/main.cpp	/^uint8_t Lmotor = 0;$/;"	v	typeref:typename:uint8_t
+Lstick_Y	src/main.cpp	/^    uint16_t Lstick_Y;$/;"	m	struct:__anon6bd514d20208	typeref:typename:uint16_t	file:
+Lstick_Y	src/main.cpp	/^uint8_t Lstick_Y;$/;"	v	typeref:typename:uint8_t
+MODE1_AI	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE1_AI /;"	d
+MODE1_ALLCAL	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE1_ALLCAL /;"	d
+MODE1_EXTCLK	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE1_EXTCLK /;"	d
+MODE1_RESTART	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE1_RESTART /;"	d
+MODE1_SLEEP	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE1_SLEEP /;"	d
+MODE1_SUB1	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE1_SUB1 /;"	d
+MODE1_SUB2	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE1_SUB2 /;"	d
+MODE1_SUB3	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE1_SUB3 /;"	d
+MODE2_INVRT	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE2_INVRT /;"	d
+MODE2_OCH	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE2_OCH /;"	d
+MODE2_OUTDRV	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE2_OUTDRV /;"	d
+MODE2_OUTNE_0	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE2_OUTNE_0 /;"	d
+MODE2_OUTNE_1	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define MODE2_OUTNE_1 /;"	d
+MapMotor	src/main.cpp	/^void MapMotor(int StickLY, int StickRX){$/;"	f	typeref:typename:void
+NewButtonState	lib/PS2X/PS2X_lib.cpp	/^boolean PS2X::NewButtonState() {$/;"	f	class:PS2X	typeref:typename:boolean
+NewButtonState	lib/PS2X/PS2X_lib.cpp	/^boolean PS2X::NewButtonState(unsigned int button) {$/;"	f	class:PS2X	typeref:typename:boolean
+ORANGE_FRET	lib/PS2X/PS2X_lib.h	/^#define ORANGE_FRET	/;"	d
+PCA9685_ALLCALLADR	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_ALLCALLADR /;"	d
+PCA9685_ALLLED_OFF_H	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_ALLLED_OFF_H /;"	d
+PCA9685_ALLLED_OFF_L	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_ALLLED_OFF_L /;"	d
+PCA9685_ALLLED_ON_H	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_ALLLED_ON_H /;"	d
+PCA9685_ALLLED_ON_L	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_ALLLED_ON_L /;"	d
+PCA9685_I2C_ADDRESS	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_I2C_ADDRESS /;"	d
+PCA9685_LED0_OFF_H	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_LED0_OFF_H /;"	d
+PCA9685_LED0_OFF_L	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_LED0_OFF_L /;"	d
+PCA9685_LED0_ON_H	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_LED0_ON_H /;"	d
+PCA9685_LED0_ON_L	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_LED0_ON_L /;"	d
+PCA9685_MODE1	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_MODE1 /;"	d
+PCA9685_MODE2	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_MODE2 /;"	d
+PCA9685_PRESCALE	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_PRESCALE /;"	d
+PCA9685_PRESCALE_MAX	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_PRESCALE_MAX /;"	d
+PCA9685_PRESCALE_MIN	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_PRESCALE_MIN /;"	d
+PCA9685_SUBADR1	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_SUBADR1 /;"	d
+PCA9685_SUBADR2	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_SUBADR2 /;"	d
+PCA9685_SUBADR3	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_SUBADR3 /;"	d
+PCA9685_TESTMODE	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define PCA9685_TESTMODE /;"	d
+PS2X	lib/PS2X/PS2X_lib.h	/^class PS2X {$/;"	c
+PS2X_lib_h	lib/PS2X/PS2X_lib.h	/^  #define PS2X_lib_h$/;"	d
+PS2_CLK	src/main.cpp	/^#define PS2_CLK /;"	d	file:
+PS2_CMD	src/main.cpp	/^#define PS2_CMD /;"	d	file:
+PS2_DAT	src/main.cpp	/^#define PS2_DAT /;"	d	file:
+PS2_SEL	src/main.cpp	/^#define PS2_SEL /;"	d	file:
+PS2data	lib/PS2X/PS2X_lib.h	/^    unsigned char PS2data[21];$/;"	m	class:PS2X	typeref:typename:unsigned char[21]
+PSAB_BLUE	lib/PS2X/PS2X_lib.h	/^#define PSAB_BLUE /;"	d
+PSAB_CIRCLE	lib/PS2X/PS2X_lib.h	/^#define PSAB_CIRCLE /;"	d
+PSAB_CROSS	lib/PS2X/PS2X_lib.h	/^#define PSAB_CROSS /;"	d
+PSAB_GREEN	lib/PS2X/PS2X_lib.h	/^#define PSAB_GREEN /;"	d
+PSAB_L1	lib/PS2X/PS2X_lib.h	/^#define PSAB_L1 /;"	d
+PSAB_L2	lib/PS2X/PS2X_lib.h	/^#define PSAB_L2 /;"	d
+PSAB_PAD_DOWN	lib/PS2X/PS2X_lib.h	/^#define PSAB_PAD_DOWN /;"	d
+PSAB_PAD_LEFT	lib/PS2X/PS2X_lib.h	/^#define PSAB_PAD_LEFT /;"	d
+PSAB_PAD_RIGHT	lib/PS2X/PS2X_lib.h	/^#define PSAB_PAD_RIGHT /;"	d
+PSAB_PAD_UP	lib/PS2X/PS2X_lib.h	/^#define PSAB_PAD_UP /;"	d
+PSAB_PINK	lib/PS2X/PS2X_lib.h	/^#define PSAB_PINK /;"	d
+PSAB_R1	lib/PS2X/PS2X_lib.h	/^#define PSAB_R1 /;"	d
+PSAB_R2	lib/PS2X/PS2X_lib.h	/^#define PSAB_R2 /;"	d
+PSAB_RED	lib/PS2X/PS2X_lib.h	/^#define PSAB_RED /;"	d
+PSAB_SQUARE	lib/PS2X/PS2X_lib.h	/^#define PSAB_SQUARE /;"	d
+PSAB_TRIANGLE	lib/PS2X/PS2X_lib.h	/^#define PSAB_TRIANGLE /;"	d
+PSB_BLUE	lib/PS2X/PS2X_lib.h	/^#define PSB_BLUE /;"	d
+PSB_CIRCLE	lib/PS2X/PS2X_lib.h	/^#define PSB_CIRCLE /;"	d
+PSB_CROSS	lib/PS2X/PS2X_lib.h	/^#define PSB_CROSS /;"	d
+PSB_GREEN	lib/PS2X/PS2X_lib.h	/^#define PSB_GREEN /;"	d
+PSB_L1	lib/PS2X/PS2X_lib.h	/^#define PSB_L1 /;"	d
+PSB_L2	lib/PS2X/PS2X_lib.h	/^#define PSB_L2 /;"	d
+PSB_L3	lib/PS2X/PS2X_lib.h	/^#define PSB_L3 /;"	d
+PSB_PAD_DOWN	lib/PS2X/PS2X_lib.h	/^#define PSB_PAD_DOWN /;"	d
+PSB_PAD_LEFT	lib/PS2X/PS2X_lib.h	/^#define PSB_PAD_LEFT /;"	d
+PSB_PAD_RIGHT	lib/PS2X/PS2X_lib.h	/^#define PSB_PAD_RIGHT /;"	d
+PSB_PAD_UP	lib/PS2X/PS2X_lib.h	/^#define PSB_PAD_UP /;"	d
+PSB_PINK	lib/PS2X/PS2X_lib.h	/^#define PSB_PINK /;"	d
+PSB_R1	lib/PS2X/PS2X_lib.h	/^#define PSB_R1 /;"	d
+PSB_R2	lib/PS2X/PS2X_lib.h	/^#define PSB_R2 /;"	d
+PSB_R3	lib/PS2X/PS2X_lib.h	/^#define PSB_R3 /;"	d
+PSB_RED	lib/PS2X/PS2X_lib.h	/^#define PSB_RED /;"	d
+PSB_SELECT	lib/PS2X/PS2X_lib.h	/^#define PSB_SELECT /;"	d
+PSB_SQUARE	lib/PS2X/PS2X_lib.h	/^#define PSB_SQUARE /;"	d
+PSB_START	lib/PS2X/PS2X_lib.h	/^#define PSB_START /;"	d
+PSB_TRIANGLE	lib/PS2X/PS2X_lib.h	/^#define PSB_TRIANGLE /;"	d
+PSS_LX	lib/PS2X/PS2X_lib.h	/^#define PSS_LX /;"	d
+PSS_LY	lib/PS2X/PS2X_lib.h	/^#define PSS_LY /;"	d
+PSS_RX	lib/PS2X/PS2X_lib.h	/^#define PSS_RX /;"	d
+PSS_RY	lib/PS2X/PS2X_lib.h	/^#define PSS_RY /;"	d
+RED_FRET	lib/PS2X/PS2X_lib.h	/^#define RED_FRET	/;"	d
+RIGHT_STRUM	lib/PS2X/PS2X_lib.h	/^#define RIGHT_STRUM	/;"	d
+RightGroundState1	src/main.cpp	/^#define RightGroundState1 /;"	d	file:
+RightGroundState2	src/main.cpp	/^#define RightGroundState2 /;"	d	file:
+RightGroundState3	src/main.cpp	/^#define RightGroundState3 /;"	d	file:
+RightMotVal	src/main.cpp	/^    uint16_t RightMotVal;$/;"	m	struct:__anon6bd514d20108	typeref:typename:uint16_t	file:
+RightServoGround	src/main.cpp	/^#define RightServoGround /;"	d	file:
+RightServoPulley	src/main.cpp	/^#define RightServoPulley /;"	d	file:
+Rmotor	src/main.cpp	/^uint8_t Rmotor = 0;$/;"	v	typeref:typename:uint8_t
+Rstick_X	src/main.cpp	/^    uint16_t Rstick_X;$/;"	m	struct:__anon6bd514d20208	typeref:typename:uint16_t	file:
+Rstick_X	src/main.cpp	/^uint8_t Rstick_X;$/;"	v	typeref:typename:uint8_t
+SET	lib/PS2X/PS2X_lib.h	/^#define SET(/;"	d
+STAR_POWER	lib/PS2X/PS2X_lib.h	/^#define STAR_POWER	/;"	d
+TIMER_LENGTH	src/main.cpp	/^#define TIMER_LENGTH /;"	d	file:
+TOG	lib/PS2X/PS2X_lib.h	/^#define TOG(/;"	d
+UP_STRUM	lib/PS2X/PS2X_lib.h	/^#define UP_STRUM	/;"	d
+WHAMMY_BAR	lib/PS2X/PS2X_lib.h	/^#define WHAMMY_BAR	/;"	d
+YELLOW_FRET	lib/PS2X/PS2X_lib.h	/^#define YELLOW_FRET	/;"	d
+_ADAFRUIT_PWMServoDriver_H	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^#define _ADAFRUIT_PWMServoDriver_H$/;"	d
+__anon6bd514d20108	src/main.cpp	/^{$/;"	s	file:
+__anon6bd514d20208	src/main.cpp	/^{$/;"	s	file:
+_att_lport_clr	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_att_lport_clr;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_att_lport_set	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_att_lport_set;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_att_mask	lib/PS2X/PS2X_lib.h	/^      port_mask_t _att_mask; $/;"	m	class:PS2X	typeref:typename:port_mask_t
+_att_oreg	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_att_oreg;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_att_pin	lib/PS2X/PS2X_lib.h	/^      int _att_pin;$/;"	m	class:PS2X	typeref:typename:int
+_clk_lport_clr	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_clk_lport_clr;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_clk_lport_set	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_clk_lport_set;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_clk_mask	lib/PS2X/PS2X_lib.h	/^      port_mask_t _clk_mask; $/;"	m	class:PS2X	typeref:typename:port_mask_t
+_clk_oreg	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_clk_oreg;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_clk_pin	lib/PS2X/PS2X_lib.h	/^      int _clk_pin;$/;"	m	class:PS2X	typeref:typename:int
+_cmd_lport_clr	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_cmd_lport_clr;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_cmd_lport_set	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_cmd_lport_set;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_cmd_mask	lib/PS2X/PS2X_lib.h	/^      port_mask_t _cmd_mask; $/;"	m	class:PS2X	typeref:typename:port_mask_t
+_cmd_oreg	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_cmd_oreg;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_cmd_pin	lib/PS2X/PS2X_lib.h	/^      int _cmd_pin;$/;"	m	class:PS2X	typeref:typename:int
+_dat_ireg	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_dat_ireg;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_dat_lport	lib/PS2X/PS2X_lib.h	/^      port_reg_t *_dat_lport;$/;"	m	class:PS2X	typeref:typename:port_reg_t *
+_dat_mask	lib/PS2X/PS2X_lib.h	/^      port_mask_t _dat_mask; $/;"	m	class:PS2X	typeref:typename:port_mask_t
+_dat_pin	lib/PS2X/PS2X_lib.h	/^      int _dat_pin;$/;"	m	class:PS2X	typeref:typename:int
+_gamepad_shiftinout	lib/PS2X/PS2X_lib.cpp	/^unsigned char PS2X::_gamepad_shiftinout (char byte) {$/;"	f	class:PS2X	typeref:typename:unsigned char
+_i2c	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^  TwoWire *_i2c;$/;"	m	class:Adafruit_PWMServoDriver	typeref:typename:TwoWire *
+_i2caddr	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^  uint8_t _i2caddr;$/;"	m	class:Adafruit_PWMServoDriver	typeref:typename:uint8_t
+_oscillator_freq	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.h	/^  uint32_t _oscillator_freq;$/;"	m	class:Adafruit_PWMServoDriver	typeref:typename:uint32_t
+_spi	lib/PS2X/PS2X_lib.h	/^    SPIClass* _spi; \/\/ hardware SPI class (null = software SPI)$/;"	m	class:PS2X	typeref:typename:SPIClass *
+_spi_settings	lib/PS2X/PS2X_lib.h	/^      SPISettings _spi_settings; \/\/ hardware SPI transaction settings$/;"	m	class:PS2X	typeref:typename:SPISettings
+begin	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::begin(uint8_t prescale) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+buttons	lib/PS2X/PS2X_lib.h	/^    unsigned int buttons;$/;"	m	class:PS2X	typeref:typename:unsigned int
+changeDoorState	src/main.cpp	/^void changeDoorState()$/;"	f	typeref:typename:void
+config_gamepad	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad(SPIClass* spi, uint8_t att) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool begin) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool pressures, bool rumble) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool pressures, bool rumble, bool begin) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pressures, bo/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_arduino_spi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_arduino_spi(uint8_t att) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_arduino_spi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_arduino_spi(uint8_t att, bool pressures, bool rumble) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_esp32_hspi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_esp32_hspi(uint8_t att) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_esp32_hspi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_esp32_hspi(uint8_t att, bool pressures, bool rumble) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_esp32_hspi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_esp32_hspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_esp32_hspi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_esp32_hspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pr/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_esp32_vspi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_esp32_vspi(uint8_t att) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_esp32_vspi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_esp32_vspi(uint8_t att, bool pressures, bool rumble) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_esp32_vspi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_esp32_vspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {$/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_esp32_vspi	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_esp32_vspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pr/;"	f	class:PS2X	typeref:typename:byte
+config_gamepad_stub	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::config_gamepad_stub(bool pressures, bool rumble) {$/;"	f	class:PS2X	typeref:typename:byte
+controller_type	lib/PS2X/PS2X_lib.h	/^    byte controller_type;$/;"	m	class:PS2X	typeref:typename:byte
+delayDoorState	src/main.cpp	/^bool delayDoorState = true;$/;"	v	typeref:typename:bool
+delayPullState	src/main.cpp	/^bool delayPullState = true;$/;"	v	typeref:typename:bool
+doorState	src/main.cpp	/^bool doorState = true;$/;"	v	typeref:typename:bool
+en_Pressures	lib/PS2X/PS2X_lib.h	/^    boolean en_Pressures;$/;"	m	class:PS2X	typeref:typename:boolean
+en_Rumble	lib/PS2X/PS2X_lib.h	/^    boolean en_Rumble;$/;"	m	class:PS2X	typeref:typename:boolean
+enablePressures	lib/PS2X/PS2X_lib.cpp	/^bool PS2X::enablePressures() {$/;"	f	class:PS2X	typeref:typename:bool
+enableRumble	lib/PS2X/PS2X_lib.cpp	/^void PS2X::enableRumble() {$/;"	f	class:PS2X	typeref:typename:void
+enable_rumble	lib/PS2X/PS2X_lib.cpp	/^static byte enable_rumble[]={0x01,0x4D,0x00,0x00,0x01};$/;"	v	typeref:typename:byte[]	file:
+enter_config	lib/PS2X/PS2X_lib.cpp	/^static byte enter_config[]={0x01,0x43,0x00,0x01,0x00};$/;"	v	typeref:typename:byte[]	file:
+error	src/main.cpp	/^byte error = -1;$/;"	v	typeref:typename:byte
+exit_config	lib/PS2X/PS2X_lib.cpp	/^static byte exit_config[]={0x01,0x43,0x00,0x00,0x5A,0x5A,0x5A,0x5A,0x5A};$/;"	v	typeref:typename:byte[]	file:
+getOscillatorFrequency	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^uint32_t Adafruit_PWMServoDriver::getOscillatorFrequency(void) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:uint32_t
+getPWM	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^uint8_t Adafruit_PWMServoDriver::getPWM(uint8_t num) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:uint8_t
+i	lib/PS2X/PS2X_lib.h	/^    unsigned char i;$/;"	m	class:PS2X	typeref:typename:unsigned char
+last_buttons	lib/PS2X/PS2X_lib.h	/^    unsigned int last_buttons;$/;"	m	class:PS2X	typeref:typename:unsigned int
+last_read	lib/PS2X/PS2X_lib.h	/^    unsigned long last_read;$/;"	m	class:PS2X	typeref:typename:unsigned long
+loop	src/main.cpp	/^void loop()$/;"	f	typeref:typename:void
+port_mask_t	lib/PS2X/PS2X_lib.h	/^typedef uint16_t port_mask_t;$/;"	t	typeref:typename:uint16_t
+port_mask_t	lib/PS2X/PS2X_lib.h	/^typedef uint32_t port_mask_t;$/;"	t	typeref:typename:uint32_t
+port_mask_t	lib/PS2X/PS2X_lib.h	/^typedef uint8_t port_mask_t;$/;"	t	typeref:typename:uint8_t
+port_reg_t	lib/PS2X/PS2X_lib.h	/^typedef volatile RwReg port_reg_t;$/;"	t	typeref:typename:volatile RwReg
+port_reg_t	lib/PS2X/PS2X_lib.h	/^typedef volatile uint32_t port_reg_t;$/;"	t	typeref:typename:volatile uint32_t
+port_reg_t	lib/PS2X/PS2X_lib.h	/^typedef volatile uint8_t port_reg_t;$/;"	t	typeref:typename:volatile uint8_t
+pressures	src/main.cpp	/^#define pressures /;"	d	file:
+prevDoor	src/main.cpp	/^int prevDoor;$/;"	v	typeref:typename:int
+prevPull	src/main.cpp	/^int prevPull;$/;"	v	typeref:typename:int
+ps2x	src/main.cpp	/^PS2X ps2x;$/;"	v	typeref:typename:PS2X
+pullState	src/main.cpp	/^byte pullState = 1;$/;"	v	typeref:typename:byte
+pwm	src/main.cpp	/^Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();$/;"	v	typeref:typename:Adafruit_PWMServoDriver
+read8	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^uint8_t Adafruit_PWMServoDriver::read8(uint8_t addr) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:uint8_t
+readPrescale	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^uint8_t Adafruit_PWMServoDriver::readPrescale(void) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:uint8_t
+readType	lib/PS2X/PS2X_lib.cpp	/^byte PS2X::readType() {$/;"	f	class:PS2X	typeref:typename:byte
+read_delay	lib/PS2X/PS2X_lib.h	/^    byte read_delay;$/;"	m	class:PS2X	typeref:typename:byte
+read_gamepad	lib/PS2X/PS2X_lib.cpp	/^boolean PS2X::read_gamepad(boolean motor1, byte motor2) {$/;"	f	class:PS2X	typeref:typename:boolean
+read_gamepad	lib/PS2X/PS2X_lib.cpp	/^void PS2X::read_gamepad() {$/;"	f	class:PS2X	typeref:typename:void
+reconfig_gamepad	lib/PS2X/PS2X_lib.cpp	/^void PS2X::reconfig_gamepad(){$/;"	f	class:PS2X	typeref:typename:void
+reset	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::reset() {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+rumble	src/main.cpp	/^#define rumble /;"	d	file:
+sendCommandString	lib/PS2X/PS2X_lib.cpp	/^void PS2X::sendCommandString(byte string[], byte len) {$/;"	f	class:PS2X	typeref:typename:void
+setExtClk	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::setExtClk(uint8_t prescale) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+setOscillatorFrequency	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::setOscillatorFrequency(uint32_t freq) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+setOutputMode	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::setOutputMode(bool totempole) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+setPWM	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^uint8_t Adafruit_PWMServoDriver::setPWM(uint8_t num, uint16_t on,$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:uint8_t
+setPWMFreq	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::setPWMFreq(float freq) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+setPin	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::setPin(uint8_t num, uint16_t val, bool invert) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+setSpeed	src/main.cpp	/^void setSpeed(int16_t left, int16_t right)$/;"	f	typeref:typename:void
+set_bytes_large	lib/PS2X/PS2X_lib.cpp	/^static byte set_bytes_large[]={0x01,0x4F,0x00,0xFF,0xFF,0x03,0x00,0x00,0x00};$/;"	v	typeref:typename:byte[]	file:
+set_mode	lib/PS2X/PS2X_lib.cpp	/^static byte set_mode[]={0x01,0x44,0x00,0x01,0x03,0x00,0x00,0x00,0x00};$/;"	v	typeref:typename:byte[]	file:
+setup	src/main.cpp	/^void setup()$/;"	f	typeref:typename:void
+sleep	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::sleep() {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+t_last_att	lib/PS2X/PS2X_lib.h	/^    volatile unsigned long t_last_att; \/\/ time since last ATT inactive$/;"	m	class:PS2X	typeref:typename:volatile unsigned long
+tempgnd	src/main.cpp	/^uint8_t tempgnd = 0;$/;"	v	typeref:typename:uint8_t
+tryNum	src/main.cpp	/^uint16_t tryNum = 0;$/;"	v	typeref:typename:uint16_t
+type_read	lib/PS2X/PS2X_lib.cpp	/^static byte type_read[]={0x01,0x45,0x00,0x5A,0x5A,0x5A,0x5A,0x5A,0x5A};$/;"	v	typeref:typename:byte[]	file:
+wakeup	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::wakeup() {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+write8	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::write8(uint8_t addr, uint8_t d) {$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void
+writeMicroseconds	.pio/libdeps/esp32doit-devkit-v1/Adafruit PWM Servo Driver Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::writeMicroseconds(uint8_t num,$/;"	f	class:Adafruit_PWMServoDriver	typeref:typename:void

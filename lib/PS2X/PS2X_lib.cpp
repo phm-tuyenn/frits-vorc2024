@@ -20,42 +20,42 @@ static byte enable_rumble[]={0x01,0x4D,0x00,0x00,0x01};
 static byte type_read[]={0x01,0x45,0x00,0x5A,0x5A,0x5A,0x5A,0x5A,0x5A};
 
 /****************************************************************************************/
-boolean PS2X::NewButtonState() {
+boolean IRAM_ATTR PS2X::NewButtonState() {
   return ((last_buttons ^ buttons) > 0);
 }
 
 /****************************************************************************************/
-boolean PS2X::NewButtonState(unsigned int button) {
+boolean IRAM_ATTR PS2X::NewButtonState(unsigned int button) {
   return (((last_buttons ^ buttons) & button) > 0);
 }
 
 /****************************************************************************************/
-boolean PS2X::ButtonPressed(unsigned int button) {
+boolean IRAM_ATTR PS2X::ButtonPressed(unsigned int button) {
   return(NewButtonState(button) & Button(button));
 }
 
 /****************************************************************************************/
-boolean PS2X::ButtonReleased(unsigned int button) {
+boolean IRAM_ATTR PS2X::ButtonReleased(unsigned int button) {
   return((NewButtonState(button)) & ((~last_buttons & button) > 0));
 }
 
 /****************************************************************************************/
-boolean PS2X::Button(uint16_t button) {
+boolean IRAM_ATTR PS2X::Button(uint16_t button) {
   return ((~buttons & button) > 0);
 }
 
 /****************************************************************************************/
-unsigned int PS2X::ButtonDataByte() {
+unsigned int IRAM_ATTR PS2X::ButtonDataByte() {
    return (~buttons);
 }
 
 /****************************************************************************************/
-byte PS2X::Analog(byte button) {
+byte IRAM_ATTR PS2X::Analog(byte button) {
    return PS2data[button];
 }
 
 /****************************************************************************************/
-unsigned char PS2X::_gamepad_shiftinout (char byte) {
+unsigned char IRAM_ATTR PS2X::_gamepad_shiftinout (char byte) {
   if(_spi == NULL) {
     /* software SPI */
     unsigned char tmp = 0;
@@ -86,12 +86,12 @@ unsigned char PS2X::_gamepad_shiftinout (char byte) {
 }
 
 /****************************************************************************************/
-void PS2X::read_gamepad() {
+void IRAM_ATTR PS2X::read_gamepad() {
    read_gamepad(false, 0x00);
 }
 
 /****************************************************************************************/
-boolean PS2X::read_gamepad(boolean motor1, byte motor2) {
+boolean IRAM_ATTR PS2X::read_gamepad(boolean motor1, byte motor2) {
    double temp = millis() - last_read;
 
    if (temp > 1500) //waited to long
@@ -167,12 +167,12 @@ boolean PS2X::read_gamepad(boolean motor1, byte motor2) {
 }
 
 /****************************************************************************************/
-byte PS2X::config_gamepad(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {
+byte IRAM_ATTR PS2X::config_gamepad(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {
    return config_gamepad(clk, cmd, att, dat, false, false);
 }
 
 /****************************************************************************************/
-byte PS2X::config_gamepad(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pressures, bool rumble) {
+byte IRAM_ATTR PS2X::config_gamepad(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pressures, bool rumble) {
 #if defined(HAVE_PORTREG_IO)
   _clk_mask = (port_mask_t) digitalPinToBitMask(clk);
   _clk_oreg = (port_reg_t*) portOutputRegister(digitalPinToPort(clk));
@@ -221,19 +221,19 @@ byte PS2X::config_gamepad(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bo
   return config_gamepad_stub(pressures, rumble);
 }
 
-byte PS2X::config_gamepad(SPIClass* spi, uint8_t att) {
+byte IRAM_ATTR PS2X::config_gamepad(SPIClass* spi, uint8_t att) {
   return config_gamepad(spi, att, false, false, true);
 }
 
-byte PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool begin) {
+byte IRAM_ATTR PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool begin) {
   return config_gamepad(spi, att, false, false, begin);
 }
 
-byte PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool pressures, bool rumble) {
+byte IRAM_ATTR PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool pressures, bool rumble) {
   return config_gamepad(spi, att, pressures, rumble, true);
 }
 
-byte PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool pressures, bool rumble, bool begin) {
+byte IRAM_ATTR PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool pressures, bool rumble, bool begin) {
   _spi = spi;
   #if defined(HAVE_PORTREG_IO)
   _att_mask = (port_mask_t) digitalPinToBitMask(att);
@@ -266,7 +266,7 @@ byte PS2X::config_gamepad(SPIClass* spi, uint8_t att, bool pressures, bool rumbl
   return config_gamepad_stub(pressures, rumble);
 }
 
-byte PS2X::config_gamepad_stub(bool pressures, bool rumble) {
+byte IRAM_ATTR PS2X::config_gamepad_stub(bool pressures, bool rumble) {
   byte temp[sizeof(type_read)];
 
 
@@ -340,7 +340,7 @@ byte PS2X::config_gamepad_stub(bool pressures, bool rumble) {
 }
 
 /****************************************************************************************/
-void PS2X::sendCommandString(byte string[], byte len) {
+void IRAM_ATTR PS2X::sendCommandString(byte string[], byte len) {
 #ifdef PS2X_COM_DEBUG
   byte temp[len];
   BEGIN_SPI();
@@ -371,7 +371,7 @@ void PS2X::sendCommandString(byte string[], byte len) {
 }
 
 /****************************************************************************************/
-byte PS2X::readType() {
+byte IRAM_ATTR PS2X::readType() {
 /*
   byte temp[sizeof(type_read)];
 
@@ -413,7 +413,7 @@ byte PS2X::readType() {
 }
 
 /****************************************************************************************/
-void PS2X::enableRumble() {
+void IRAM_ATTR PS2X::enableRumble() {
   sendCommandString(enter_config, sizeof(enter_config));
   sendCommandString(enable_rumble, sizeof(enable_rumble));
   sendCommandString(exit_config, sizeof(exit_config));
@@ -421,7 +421,7 @@ void PS2X::enableRumble() {
 }
 
 /****************************************************************************************/
-bool PS2X::enablePressures() {
+bool IRAM_ATTR PS2X::enablePressures() {
   sendCommandString(enter_config, sizeof(enter_config));
   sendCommandString(set_bytes_large, sizeof(set_bytes_large));
   sendCommandString(exit_config, sizeof(exit_config));
@@ -437,7 +437,7 @@ bool PS2X::enablePressures() {
 }
 
 /****************************************************************************************/
-void PS2X::reconfig_gamepad(){
+void IRAM_ATTR PS2X::reconfig_gamepad(){
   sendCommandString(enter_config, sizeof(enter_config));
   sendCommandString(set_mode, sizeof(set_mode));
   if (en_Rumble)
@@ -549,37 +549,37 @@ inline bool PS2X::DAT_CHK(void) {
   return (*_dat_lport & _dat_mask) ? true : false;
 }
 #else
-inline void  PS2X::CLK_SET(void) {
+inline void IRAM_ATTR PS2X::CLK_SET(void) {
   digitalWrite(_clk_pin, HIGH);
 }
 
-inline void  PS2X::CLK_CLR(void) {
+inline void IRAM_ATTR PS2X::CLK_CLR(void) {
   digitalWrite(_clk_pin, LOW);
 }
 
-inline void  PS2X::CMD_SET(void) {
+inline void IRAM_ATTR PS2X::CMD_SET(void) {
   digitalWrite(_cmd_pin, HIGH);
 }
 
-inline void  PS2X::CMD_CLR(void) {
+inline void IRAM_ATTR PS2X::CMD_CLR(void) {
   digitalWrite(_cmd_pin, LOW);
 }
 
-inline void  PS2X::ATT_SET(void) {
+inline void IRAM_ATTR PS2X::ATT_SET(void) {
   digitalWrite(_att_pin, HIGH);
 }
 
-inline void PS2X::ATT_CLR(void) {
+inline void IRAM_ATTR PS2X::ATT_CLR(void) {
   digitalWrite(_att_pin, LOW);
 }
 
-inline bool PS2X::DAT_CHK(void) {
+inline bool IRAM_ATTR PS2X::DAT_CHK(void) {
   return digitalRead(_dat_pin) ? true : false;
 }
 
 #endif
 
-inline void PS2X::BEGIN_SPI_NOATT(void) {
+inline void IRAM_ATTR PS2X::BEGIN_SPI_NOATT(void) {
   if(_spi != NULL) {
 #if defined(SPI_HAS_TRANSACTION)
     _spi->beginTransaction(_spi_settings);
@@ -601,14 +601,14 @@ inline void PS2X::BEGIN_SPI_NOATT(void) {
   }
 }
 
-inline void PS2X::BEGIN_SPI(void) {
+inline void IRAM_ATTR PS2X::BEGIN_SPI(void) {
   BEGIN_SPI_NOATT();
   while(millis() - t_last_att < CTRL_PACKET_DELAY);
   ATT_CLR(); // low enable joystick
   delayMicroseconds(CTRL_BYTE_DELAY);
 }
 
-inline void PS2X::END_SPI_NOATT(void) {
+inline void IRAM_ATTR PS2X::END_SPI_NOATT(void) {
   if(_spi != NULL) {
 #if defined(SPI_HAS_TRANSACTION)
     _spi->endTransaction();
@@ -621,53 +621,53 @@ inline void PS2X::END_SPI_NOATT(void) {
   }
 }
 
-inline void PS2X::END_SPI(void) {
+inline void IRAM_ATTR PS2X::END_SPI(void) {
   ATT_SET();
   END_SPI_NOATT();
   t_last_att = millis();
 }
 
 /****************************************************************************************/
-byte PS2X::config_gamepad_arduino_spi(uint8_t att) {
+byte IRAM_ATTR PS2X::config_gamepad_arduino_spi(uint8_t att) {
   return config_gamepad_arduino_spi(att, false, false);
 }
 
-byte PS2X::config_gamepad_arduino_spi(uint8_t att, bool pressures, bool rumble) {
+byte IRAM_ATTR PS2X::config_gamepad_arduino_spi(uint8_t att, bool pressures, bool rumble) {
   return config_gamepad(&SPI, att, pressures, rumble);
 }
 
 #if defined(ESP32)
-byte PS2X::config_gamepad_esp32_hspi(uint8_t att) {
+byte IRAM_ATTR PS2X::config_gamepad_esp32_hspi(uint8_t att) {
   return config_gamepad_esp32_hspi(att, false, false);
 }
 
-byte PS2X::config_gamepad_esp32_hspi(uint8_t att, bool pressures, bool rumble) {
+byte IRAM_ATTR PS2X::config_gamepad_esp32_hspi(uint8_t att, bool pressures, bool rumble) {
   return config_gamepad(new SPIClass(HSPI), att, pressures, rumble);
 }
 
-byte PS2X::config_gamepad_esp32_hspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {
+byte IRAM_ATTR PS2X::config_gamepad_esp32_hspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {
   return config_gamepad_esp32_hspi(clk, cmd, att, dat, false, false);
 }
 
-byte PS2X::config_gamepad_esp32_hspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pressures, bool rumble) {
+byte IRAM_ATTR PS2X::config_gamepad_esp32_hspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pressures, bool rumble) {
   SPIClass* spi_class = new SPIClass(HSPI);
   spi_class->begin(clk, dat, cmd, att);
   return config_gamepad(spi_class, att, pressures, rumble, false);
 }
 
-byte PS2X::config_gamepad_esp32_vspi(uint8_t att) {
+byte IRAM_ATTR PS2X::config_gamepad_esp32_vspi(uint8_t att) {
   return config_gamepad_esp32_vspi(att, false, false);
 }
 
-byte PS2X::config_gamepad_esp32_vspi(uint8_t att, bool pressures, bool rumble) {
+byte IRAM_ATTR PS2X::config_gamepad_esp32_vspi(uint8_t att, bool pressures, bool rumble) {
   return config_gamepad(new SPIClass(VSPI), att, pressures, rumble);
 }
 
-byte PS2X::config_gamepad_esp32_vspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {
+byte IRAM_ATTR PS2X::config_gamepad_esp32_vspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat) {
   return config_gamepad_esp32_vspi(clk, cmd, att, dat, false, false);
 }
 
-byte PS2X::config_gamepad_esp32_vspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pressures, bool rumble) {
+byte IRAM_ATTR PS2X::config_gamepad_esp32_vspi(uint8_t clk, uint8_t cmd, uint8_t att, uint8_t dat, bool pressures, bool rumble) {
   SPIClass* spi_class = new SPIClass(VSPI);
   spi_class->begin(clk, dat, cmd, att);
   return config_gamepad(spi_class, att, pressures, rumble, false);
