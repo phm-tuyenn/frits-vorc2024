@@ -5,7 +5,7 @@
 //                    DEBUG PRINT
 // ************************************************
 
-#define DBG_PRINT
+//#define DBG_PRINT
 
 #define PS2_CLK 14
 #define PS2_CMD 13
@@ -30,7 +30,7 @@ uint8_t tempgnd = 0;
 #define LeftPullState3 2400 // 135*
 #define RightPullState3 600 // 135*
 
-
+#define NERFINPIN 12
 
 #define SPEED_CONST 4095
 
@@ -40,6 +40,7 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 hw_timer_t *ContTimer0;
 hw_timer_t *ContTimer1;
 hw_timer_t *ContTimer2;
+hw_timer_t *ContTimer3;
 
 byte error = -1;
 uint16_t tryNum = 0;
@@ -72,7 +73,7 @@ struct
     int mappedRJoyXTurning;
     bool DelayState = true;
     bool PullDelayState = true;
-    bool wtf;
+    int NERFSTATE = 0;
 
 } ContDataDecode;
 
@@ -139,7 +140,20 @@ void MapMotor(int LJoyY,int RJoyX){
     ContDataDecode.LeftMotVal = TempLeftMotVal;
     ContDataDecode.RightMotVal = TempRightMotVal;
 }
- 
+
+void IRAM_ATTR NERFMODEXD(){
+    if(ContData.Button_Circle){
+        pwm.setPWM(NERFINPIN,0,100);
+        pwm.setPWM(13, 0, 0);
+        ContDataDecode.NERFSTATE = 2;
+    }
+    else{
+        timerDetachInterrupt(ContTimer3);
+        timerEnd(ContTimer3);
+        ContDataDecode.NERFSTATE = 0;
+    }
+}
+
 void IRAM_ATTR ControllerReadTimed(){  //IRAM_ATTR makes the function resides in ram which is nescessary in fast timer ISR's (may reach the RAM limit)
     ps2x.read_gamepad(0,0);
     ContData.Lstick_Y =  ps2x.Analog(PSS_LY) - 1;
@@ -152,6 +166,16 @@ void IRAM_ATTR ControllerReadTimed(){  //IRAM_ATTR makes the function resides in
     ContData.Button_L2 = ps2x.ButtonPressed(PSB_L2);
     ContData.Button_R1 = ps2x.Button(PSB_R1);
     ContData.Button_R2 = ps2x.Button(PSB_R2);
+    ContData.Button_Circle = ps2x.Button(PSB_CIRCLE);
+
+    if(ContData.Button_Circle){
+        ContTimer3 = timerBegin(3, 80, true);
+        timerAttachInterrupt(ContTimer3,&NERFMODEXD, true);
+        timerAlarmWrite(ContTimer3, 2000000, false);
+        timerAlarmEnable(ContTimer3);
+        ContDataDecode.NERFSTATE = 1;
+    }
+    
     ContCheckFlag = true;
 
 }
@@ -221,7 +245,6 @@ void ServoCont(){
 }
     
 void IRAM_ATTR PullstateChange(){
-    ContDataDecode.wtf = true;
     ContDataDecode.PullState = false;
 
 }
@@ -328,9 +351,10 @@ void loop()
         Serial.print(ContDataDecode.PullState);
         Serial.print(", ");
         Serial.print("PullPos:");
-        Serial.print(ContDataDecode.GroundPos);
-        Serial.print(", ");
-        Serial.println(ContDataDecode.wtf); 
+        Serial.println(ContDataDecode.GroundPos);
+
+        Serial.print("LauncherStage:")
+        Serial.println(ContDataDecode.NERFSTATE);
 
         Serial.println("\n");
         Serial.println("\n");
