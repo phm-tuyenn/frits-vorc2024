@@ -122,10 +122,10 @@ void setSpeed(int16_t left, int16_t right)
 void MapMotor(int LJoyY,int RJoyX){
     int TempLeftMotVal ;
     int TempRightMotVal ;
-    ContDataDecode.mappedLJoyY = map(LJoyY, 255, 0, -4000, 4000);
-    ContDataDecode.mappedRJoyX = map(RJoyX, 0, 255, -4000, 4000);
-    ContDataDecode.mappedLJoyYTurning = map(LJoyY, 255, 0, -1700, 1700);
-    ContDataDecode.mappedRJoyXTurning = map(RJoyX, 0, 255, -1700, 1700);
+    ContDataDecode.mappedLJoyY = map(constrain(LJoyY, 0, 255), 255, 0, -4000, 4000);
+    ContDataDecode.mappedRJoyX = map(constrain(RJoyX, 0, 255), 0, 255, -4000, 4000);
+    ContDataDecode.mappedLJoyYTurning = map(LJoyY, 255, 0, -2000, 2000);
+    ContDataDecode.mappedRJoyXTurning = map(RJoyX, 0, 255, -2000, 2000);
     if (ContDataDecode.mappedRJoyX) // Turning
     {
         TempLeftMotVal = ContDataDecode.mappedLJoyYTurning + ContDataDecode.mappedRJoyXTurning;
@@ -142,8 +142,8 @@ void MapMotor(int LJoyY,int RJoyX){
  
 void IRAM_ATTR ControllerReadTimed(){  //IRAM_ATTR makes the function resides in ram which is nescessary in fast timer ISR's (may reach the RAM limit)
     ps2x.read_gamepad(0,0);
-    ContData.Lstick_Y =  ps2x.Analog(PSS_LY);
-    ContData.Rstick_X =  ps2x.Analog(PSS_RX);
+    ContData.Lstick_Y =  ps2x.Analog(PSS_LY) - 1;
+    ContData.Rstick_X =  ps2x.Analog(PSS_RX) - 1;
     ContData.Button_Circle = ps2x.ButtonPressed(PSB_CIRCLE);
     ContData.Button_Cross = ps2x.ButtonPressed(PSB_CROSS);
     ContData.Button_Square = ps2x.ButtonPressed(PSB_SQUARE);

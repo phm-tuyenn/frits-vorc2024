@@ -1,0 +1,15448 @@
+isr timers enabled
+ContLY:128,ContRX:128
+MappedContLY:-16,MappedContRX:0
+MotLeft:-16,MotRight:-16
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:151,ContRX:128
+MappedContLY:-738,MappedContRX:0
+MotLeft:-738,MotRight:-738
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:198,ContRX:128
+MappedContLY:-738,MappedContRX:0
+MotLeft:-738,MotRight:-738
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:213,ContRX:128
+MappedContLY:-2683,MappedContRX:0
+MotLeft:-2683,MotRight:-2683
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:238,ContRX:128
+MappedContLY:-2683,MappedContRX:0
+MotLeft:-2683,MotRight:-2683
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-3467,MappedContRX:0
+MotLeft:-3467,MotRight:-3467
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:134
+MappedContLY:15,MappedContRX:188
+MotLeft:163,MotRight:-141
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:186
+MappedContLY:15,MappedContRX:1820
+MotLeft:1387,MotRight:-1365
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:213
+MappedContLY:15,MappedContRX:2667
+MotLeft:2022,MotRight:-2000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:228
+MappedContLY:15,MappedContRX:3137
+MotLeft:2375,MotRight:-2353
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:238
+MappedContLY:15,MappedContRX:3451
+MotLeft:2611,MotRight:-2589
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:253
+MappedContLY:15,MappedContRX:3922
+MotLeft:2963,MotRight:-2941
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:255
+MappedContLY:15,MappedContRX:3985
+MotLeft:3011,MotRight:-2989
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:236
+MappedContLY:15,MappedContRX:3388
+MotLeft:2563,MotRight:-2541
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:160
+MappedContLY:15,MappedContRX:1004
+MotLeft:775,MotRight:-753
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:71
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:6
+MappedContLY:15,MappedContRX:-3827
+MotLeft:-2848,MotRight:2870
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:0
+MappedContLY:15,MappedContRX:-4015
+MotLeft:-2989,MotRight:3011
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:93,ContRX:128
+MappedContLY:1082,MappedContRX:0
+MotLeft:1082,MotRight:1082
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:0,ContRX:128
+MappedContLY:4000,MappedContRX:0
+MotLeft:4000,MotRight:4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:21,ContRX:128
+MappedContLY:3341,MappedContRX:0
+MotLeft:3341,MotRight:3341
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:255,ContRX:128
+MappedContLY:-4000,MappedContRX:0
+MotLeft:-4000,MotRight:-4000
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+ContLY:127,ContRX:128
+MappedContLY:15,MappedContRX:0
+MotLeft:15,MotRight:15
+Cross: 0, Triangle: 0, Circle: 0, Square: 0
+L1: 0, L2: 0, R1: 0
+DoorState:0, DoorMode:0
+PullState:0, PullPos:0, 1
+
+
+
+
+
+
+
+
+
+
+
+
