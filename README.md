@@ -1,2 +1,1 @@
-# I wanna use Arduino IDE 
-# I will code the shooter
+# FRITS VORC 2024 code repo
