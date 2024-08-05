@@ -6,7 +6,7 @@ PS2X ps2x; // Gamepad
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X); // Color sensor
 
 // Utilities class 
-Utilities utils(pwm, ps2x, tcs);
+Utilities utils;
 
 // Subsystem class
 Drivetrain drivetrain(pwm, ps2x, tcs);
@@ -22,6 +22,9 @@ void setup() {
         delay(1000);
         error = ps2x.config_gamepad(PS2_CLK, PS2_CMD, PS2_SEL, PS2_DAT, PRESSURES, RUMBLE); 
     } 
+
+    // Set hardware driver
+    utils.setHardware(pwm, ps2x, tcs);
 
     // Setup PWM controller
     pwm.begin();
@@ -45,5 +48,5 @@ void setup() {
 }
 
 void loop() {
-    
+    ps2x.read_gamepad(false, false);
 }

@@ -22,6 +22,11 @@
 #define PRESSURES false
 #define RUMBLE false
 
+// These constant don't need to tuned
+#define WHEEL_RADIUS 0.10795 // Wheel radius in meter
+#define FLYWHEEL_VELOCITY_METER_PER_SEC 13.565397078200727 // Flywheel velocity in m/s
+#define FLYWHEEL_VELOCITY_PERCENT 0.8 // Flywheel velocity in percent for `void setMotorSpeed()`
+
 // These constant below need to tuned to use in real life, so these a pseudo-constants
 // Servo constant
 #define T_on_0deg 1 // On cycle time microsec for 0deg rotation

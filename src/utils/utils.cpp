@@ -1,12 +1,12 @@
 #include "includes.h"
 
 /*
-    @brief Init Utilities class
+    @brief Set hardware driver
     @param pwm PWM controller
     @param ps2x Gamepad
     @param tcs Color sensor
 */
-Utilities::Utilities(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725 tcs) {
+void Utilities::setHardware(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725 tcs) {
     Utilities::pwm = pwm;
     Utilities::ps2x = ps2x;
     Utilities::tcs = tcs;

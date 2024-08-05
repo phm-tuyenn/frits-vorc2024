@@ -1,10 +1,10 @@
 class Dumper {
     public:
-        Dumper(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725 tcs);
-        void setup();
-        void run();
-    private:
         Adafruit_PWMServoDriver pwm;
         PS2X ps2x;
         Adafruit_TCS34725 tcs;
+
+        Dumper(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725 tcs);
+        void setup();
+        void run();
 };
