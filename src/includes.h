@@ -1,16 +1,4 @@
-#include <Arduino.h>
-#include <PS2X_lib.h>
-#include <Wire.h>
-#include <math.h>
-
-// Include driver
-#include <Adafruit_PWMServoDriver.h>
-#include "Adafruit_TCS34725.h"
-
-// Driver init
-Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(); // PWM controller
-PS2X ps2x; // Gamepad
-Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X); // Color sensor
+#include "libs.h"
 
 // Utilities for better coding
 #include "utils/utils.h"
@@ -19,3 +7,8 @@ Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS3472
 #include "constants.h"
 
 // Here to includes subsystem headers
+#include "subsystems/drivetrain/drivetrain.h"
+#include "subsystems/intake/intake.h"
+#include "subsystems/serializer/serializer.h"
+#include "subsystems/shooter/shooter.h"
+#include "subsystems/dumper/dumper.h"

@@ -1,13 +1,23 @@
 #include "includes.h"
 
-// Init the controller
-Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
+/*
+    @brief Init Serializer class
+    @param pwm PWM controller
+    @param ps2x Gamepad
+    @param tcs Color sensor
+*/
+Shooter::Shooter(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725 tcs) {
+    Shooter::pwm = pwm;
+    Shooter::ps2x = ps2x;
+    Shooter::tcs = tcs;
+}
 
-// Load water into shooter function
-void load() {
+// Shooter setup: use this in `void setup()`
+void Shooter::setup() {
 
 }
-// Autonomous shooter
-void shooter() {
+
+// Shooter main run: use this in `void loop()`
+void Shooter::run() {
     
 }

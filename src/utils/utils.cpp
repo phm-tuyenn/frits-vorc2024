@@ -1,6 +1,18 @@
 #include "includes.h"
 
 /*
+    @brief Init Utilities class
+    @param pwm PWM controller
+    @param ps2x Gamepad
+    @param tcs Color sensor
+*/
+Utilities::Utilities(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725 tcs) {
+    Utilities::pwm = pwm;
+    Utilities::ps2x = ps2x;
+    Utilities::tcs = tcs;
+}
+
+/*
     @brief Set speed for motor
     @param chan1, chan2 Set motor channel pair
     @param speed Speed of motor, range -1 -> 1
@@ -26,7 +38,7 @@ void Utilities::setMotorSpeed(int chan1, int chan2, float speed) {
 void Utilities::setServoAngle(int chan, float angle) {
     // Calculate angle change time in ms and convert to PWM
     float angle_change_ms = angle / 180;
-    int pwm_val = static_cast<int>((T_on_0deg + angle_change_ms)  / (Ts / 4096));
+    int pwm_val = static_cast<int>((T_on_0deg + angle_change_ms) / (Ts / 4096));
     // Set the calculated PWM
     pwm.setPWM(chan, 0, pwm_val);
 }
@@ -55,13 +67,13 @@ struct color Utilities::getColor() {
 */
 float Utilities::getDistance() {
     // Trigger signal
-    digitalWrite(trigPin, LOW);
+    digitalWrite(TRIGPIN, LOW);
     delayMicroseconds(2);
-    digitalWrite(trigPin, HIGH);
+    digitalWrite(TRIGPIN, HIGH);
     delayMicroseconds(10);
-    digitalWrite(trigPin, LOW);
+    digitalWrite(TRIGPIN, LOW);
 
-    float duration = pulseIn(echoPin, HIGH); // Get pulse
+    float duration = pulseIn(ECHOPIN, HIGH); // Get pulse
     float distance = (duration * .343) / 2; // 0.343 is speed of sound in mm/microsec
     return distance / 1000; // Convert to meter 
 }
