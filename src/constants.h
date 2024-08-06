@@ -43,13 +43,11 @@ static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right
 static const float INTAKE_SPEED = 0.8; //  Motor speed for intake motor
 // Serializer angle values (degrees)
 static const int SERIALIZER_NEUTRAL_STATE = 90; // The angle value when Serializer servo is neutral/in the middle
-static const int SERIALIZER_WATER_STATE = 0; // The angle value when Serializer servo turns to water processor
-static const int SERIALIZER_GABBAGE_STATE = 180;// The angle value when Serializer servo turns to gabbage processor
+static const int SERIALIZER_WATER_STATE = 45; // The angle value when Serializer servo turns to water processor
+static const int SERIALIZER_GABBAGE_STATE = 135;// The angle value when Serializer servo turns to gabbage processor
 // Dumper angle values (degrees)
 static const int DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo is closed
 static const int DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open
 
 // Color detection variables (read function in serializer.cpp)
-// Pseudo-constants
-static const int BLACK_MAX[3] = {127,127,127}; // The R,G and B code for the limit of BLACK color
-static const int WHITE_MIN[3] = {129,129,129}; // The R,G and B code for the limit of WHITE color
+static const int COLOR_THRESHOLD = 128; // Threshold to determine black or white
