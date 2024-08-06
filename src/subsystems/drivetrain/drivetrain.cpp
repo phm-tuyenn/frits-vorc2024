@@ -1,7 +1,13 @@
 #include "includes.h"
 // #include <bits/stdc++.h>
 
+<<<<<<< HEAD
 // using namespace std;
+=======
+// Map joystick range from 0-255 to -1 -> 1
+#define mapJoystick(joystickVal, centeredJoystickVal) (static_cast<float>(joystickVal) - static_cast<float>(centeredJoystickVal)) / 128.0
+
+>>>>>>> 0538d365c783a2c43039379c050dc5bbd48fa4e4
 /*
     @brief Init Drivetrain class
     @param pwm PWM controller
@@ -21,4 +27,16 @@ void Drivetrain::setup() {
 
 // Drivetrain main run: use this in `void loop()`
 void Drivetrain::run() {
+<<<<<<< HEAD
+=======
+    // Get joystick value
+    float leftYJoystick = mapJoystick(PSS_LY, JOYSTICK_LEFT_CENTER_VAL);
+    float rightXJoystick = mapJoystick(PSS_RX, JOYSTICK_RIGHT_CENTER_VAL);
+    // Calculate motor speed
+    float leftSpeed = leftYJoystick + rightXJoystick;
+    float rightSpeed = leftYJoystick - rightXJoystick;
+    // Set motor speed, left go counter clockwise and vice versa
+    utils.setMotorSpeed(DRIVE_LEFT_CHAN[0], DRIVE_LEFT_CHAN[1], -leftSpeed);
+    utils.setMotorSpeed(DRIVE_RIGHT_CHAN[0], DRIVE_RIGHT_CHAN[1], rightSpeed);
+>>>>>>> 0538d365c783a2c43039379c050dc5bbd48fa4e4
 }

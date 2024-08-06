@@ -31,11 +31,11 @@ void Utilities::setMotorSpeed(int chan1, int chan2, float speed) {
 }
 
 /*
-    @brief Set speed for servo
-    @param chan Set motor channel pair
-    @param angle Set servo angle, range 0 -> 180 deg
+    @brief Set angle for 180deg servo of speed for 360deg servo
+    @param chan Set servo channel pair
+    @param angle Set servo angle or speed, range 0 -> 180
 */
-void Utilities::setServoAngle(int chan, float angle) {
+void Utilities::setServo(int chan, float angle) {
     // Calculate angle change time in ms and convert to PWM
     float angle_change_ms = angle / 180;
     int pwm_val = static_cast<int>((T_on_0deg + angle_change_ms) / (Ts / 4096));
