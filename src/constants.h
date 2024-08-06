@@ -39,6 +39,6 @@ static const float SERVO360_STOP = 60; // Value for 360deg servo to stop rotate
 // Gamepad constant
 static const int JOYSTICK_LEFT_CENTER_VAL = 127; // The analog value when left joystick in center
 static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right joystick in center
-// Dumper angle values
+// Dumper angle values (degrees)
 static const int DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo is closed
 static const int DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open

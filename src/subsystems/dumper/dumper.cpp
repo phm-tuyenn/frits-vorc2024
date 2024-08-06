@@ -20,7 +20,7 @@ void Dumper::setup() {
 // Dumper main run: use this in `void loop()`
 void Dumper::run() {
     // Get TRIANGLE ButtonPressed value
-    int TRIANGLEInput = ps2x.ButtonPressed(PSAB_TRIANGLE);
+    int TRIANGLEInput = ps2x.ButtonPressed(PSB_TRIANGLE);
     // Close/open dumper
     int state = 0;
     if (TRIANGLEInput = 1){
