@@ -14,10 +14,25 @@ Intake::Intake(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725 tcs) {
 
 // Intake setup: use this in `void setup()`
 void Intake::setup() {
-
+    utils.setHardware(pwm,ps2x,tcs);
 }
 
 // Intake main run: use this in `void loop()`
 void Intake::run() {
-    
+    // Get SQUARE ButtonPressed value
+    int SQUAREInput = ps2x.ButtonPressed(PSB_SQUARE);
+    // Close/open dumper
+    int state = 0;
+    if (SQUAREInput == 1){
+        switch (state){
+            case 0:
+                utils.setMotorSpeed(INTAKE_CHAN[0],INTAKE_CHAN[1],INTAKE_SPEED);
+                state = 1;
+                break;
+            case 1:
+                utils.setMotorSpeed(INTAKE_CHAN[0],INTAKE_CHAN[1],INTAKE_SPEED);
+                state = 0;
+                break;
+        }   
+    }
 }
