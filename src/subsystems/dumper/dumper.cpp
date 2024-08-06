@@ -23,7 +23,7 @@ void Dumper::run() {
     int TRIANGLEInput = ps2x.ButtonPressed(PSB_TRIANGLE);
     // Close/open dumper
     int state = 0;
-    if (TRIANGLEInput = 1){
+    if (TRIANGLEInput == 1){
         switch (state){
             case 0:
                 utils.setServo(DUMPER_CHAN,DUMPER_CLOSED_STATE);
