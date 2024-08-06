@@ -6,7 +6,7 @@ static const int SHOOTER_CHAN[2] = {14, 15}; // Shooter motor channels
 
 // Servo channels
 static const int SERIALIZER_WATER_GATE_CHAN = 2; //Serializer, water gate servo
-static const int SERIALIZER_WASTE_GATE_CHAN = 2; //Serializer, waste gate servo
+static const int SERIALIZER_WASTE_GATE_CHAN = 3; //Serializer, waste gate servo
 static const int LOADER_CHAN = 4; // Water loader servo
 static const int DUMPER_CHAN = 5; // Waste dumper servo
 
