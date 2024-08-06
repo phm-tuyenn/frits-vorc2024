@@ -29,7 +29,7 @@ static const float FLYWHEEL_VELOCITY_PERCENT = 0.8; // Flywheel velocity in perc
 static const float SHOOTER_HEIGHT = 0.5; // Shooter height (meter)
 static const float GOAL_HEIGHT = 1.8; // Goal height (meter)
 
-// These constant below need to tuned to use in real life, so these a pseudo-constants
+// These constant below need to tuned to use in real life, so these are pseudo-constants
 // Servo constant
 static const int T_on_0deg = 1; // On cycle time microsec for 0deg rotation
 static const int Ts = 20; // Dutycycle time microsec
@@ -39,3 +39,6 @@ static const float SERVO360_STOP = 60; // Value for 360deg servo to stop rotate
 // Gamepad constant
 static const int JOYSTICK_LEFT_CENTER_VAL = 127; // The analog value when left joystick in center
 static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right joystick in center
+// Dumper angle values
+static const int DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo is closed
+static const int DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open
