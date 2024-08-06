@@ -40,7 +40,6 @@ static const float SERVO360_STOP = 60; // Value for 360deg servo to stop rotate
 static const int JOYSTICK_LEFT_CENTER_VAL = 127; // The analog value when left joystick in center
 static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right joystick in center
 // Intake motor speed
-static const float INTAKE_SPEED = 0.5; //  Motor speed for intake motor
 static const float INTAKE_SPEED = 0.8; //  Motor speed for intake motor
 // Serializer angle values (degrees)
 static const int SERIALIZER_NEUTRAL_STATE = 90; // The angle value when Serializer servo is neutral/in the middle
