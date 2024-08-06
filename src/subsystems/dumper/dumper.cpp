@@ -22,7 +22,6 @@ void Dumper::run() {
     // Get TRIANGLE ButtonPressed value
     int TRIANGLEInput = ps2x.ButtonPressed(PSB_TRIANGLE);
     // Close/open dumper
-    int state = 0;
     if (TRIANGLEInput == 1){
         switch (state){
             case 0:
