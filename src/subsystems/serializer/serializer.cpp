@@ -15,8 +15,9 @@ Serializer::Serializer(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725
 // Serializer setup: use this in `void setup()`
 void Serializer::setup() {
     utils.setHardware(pwm,ps2x,tcs);
-    // Set neutral state for serializer
-    utils.setServo(SERIALIZER_CHAN, SERIALIZER_NEUTRAL_STATE);
+    // Close all gates
+    utils.setServo(SERIALIZER_WASTE_GATE_CHAN, SERIALIZER_GABBAGE_CLOSE);
+    utils.setServo(SERIALIZER_WATER_GATE_CHAN, SERIALIZER_WATER_CLOSE);
 }
 
 // Serializer main run: use this in `void loop()`
@@ -25,11 +26,13 @@ void Serializer::run() {
     struct color colorInput = utils.getColor();
     // Run color cases
     switch(colorDetection(colorInput.r,colorInput.g,colorInput.b)){
-        case 0:
-            utils.setServo(SERIALIZER_CHAN, SERIALIZER_GABBAGE_STATE);
+        case 0: // If detect black then open garbagge gate, close water gate
+            utils.setServo(SERIALIZER_WASTE_GATE_CHAN, SERIALIZER_GABBAGE_OPEN);
+            utils.setServo(SERIALIZER_WATER_GATE_CHAN, SERIALIZER_WATER_CLOSE);
             break;
-        case 1:
-            utils.setServo(SERIALIZER_CHAN, SERIALIZER_WATER_STATE);
+        case 1: // If detect black then close garbagge gate, open water gate
+            utils.setServo(SERIALIZER_WASTE_GATE_CHAN, SERIALIZER_GABBAGE_CLOSE);
+            utils.setServo(SERIALIZER_WATER_GATE_CHAN, SERIALIZER_WATER_OPEN);
             break;
     }
 }
