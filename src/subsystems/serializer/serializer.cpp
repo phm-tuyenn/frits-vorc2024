@@ -40,10 +40,14 @@ void Serializer::run() {
     @param g Green code
     @param b Blue code
     @details
-    - It convert RGB to grayscale and then decide if the color is white or black by a threshold
-    @return 0: black, 1: white
+    - This function converts RGB code to grayscale and then decide if the color is white or black or neutral.
+    - The neutral color ranges somewhere in the middle on the grayscale (determined in constants.h).
+    - Lower than this range is considered black, and higher is considered white.
+    @return 0: black, 1: white, 2: neutral color
 */
 int Serializer::colorDetection(int r, int g, int b){
     float gray = 0.2126 * r + 0.7152 * g + 0.0722 * b; // Convert to grayscale
-    return gray < COLOR_THRESHOLD ? 0 : 1; // 0 is black, 1 is white
+    if (gray < NEUTRAL_ZONE_IN) return 0;
+    if (gray > NEUTRAL_ZONE_OUT) return 1;
+    return 2;
 }

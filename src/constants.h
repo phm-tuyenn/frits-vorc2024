@@ -50,4 +50,6 @@ static const int DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo i
 static const int DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open
 
 // Color detection variables (read function in serializer.cpp)
-static const int COLOR_THRESHOLD = 128; // Threshold to determine black or white
+// static const int COLOR_THRESHOLD = 128; // Threshold to determine black or white
+static const int NEUTRAL_ZONE_IN = 96;
+static const int NEUTRAL_ZONE_OUT = 160;
