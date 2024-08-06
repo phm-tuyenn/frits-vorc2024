@@ -1,5 +1,7 @@
 #include "includes.h"
+// #include <bits/stdc++.h>
 
+// using namespace std;
 /*
     @brief Init Drivetrain class
     @param pwm PWM controller
@@ -14,10 +16,9 @@ Drivetrain::Drivetrain(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725
 
 // Drivetrain setup: use this in `void setup()`
 void Drivetrain::setup() {
-
+    utils.setHardware(pwm, ps2x, tcs);
 }
 
 // Drivetrain main run: use this in `void loop()`
 void Drivetrain::run() {
-    
 }
