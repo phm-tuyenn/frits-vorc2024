@@ -56,5 +56,3 @@ static const int WHITE_MAX = 255; // The R,G and B code for WHITE color code
 // Pseudo-constants
 static const int BLACK_MAX[3] = {127,127,127}; // The R,G and B code for the limit of BLACK color
 static const int WHITE_MIN[3] = {129,129,129}; // The R,G and B code for the limit of WHITE color
-static const float DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo is closed
-static const float DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open
