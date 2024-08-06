@@ -51,14 +51,11 @@ void Serializer::run() {
     @return 0: black, 1: neutral color, 2: white
 */
 int Serializer::colorDetection(int r, int g, int b){
-    if ((r >= BLACK_MIN & r <= BLACK_MAX[0]) &
-        (g >= BLACK_MIN & g <= BLACK_MAX[1]) &
-        (b >= BLACK_MIN & b <= BLACK_MAX[2])) return 0;
-    else {
-        if ((r >= WHITE_MIN[0] & r <= WHITE_MAX) &
-            (g >= WHITE_MIN[1] & g <= WHITE_MAX) &
-            (b >= WHITE_MIN[2] & b <= WHITE_MAX)) return 2;
-        else return 1;
-    }
-    return 0;
+    if ((r <= BLACK_MAX[0]) &&
+        (g <= BLACK_MAX[1]) &&
+        (b <= BLACK_MAX[2])) return 0;
+    else if ((r >= WHITE_MIN[0]) &&
+            (g >= WHITE_MIN[1]) &&
+            (b >= WHITE_MIN[2])) return 2;
+    else return 1;
 }
