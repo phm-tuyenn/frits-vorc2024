@@ -42,9 +42,10 @@ static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right
 // Intake motor speed
 static const float INTAKE_SPEED = 0.8; //  Motor speed for intake motor
 // Serializer angle values (degrees)
-static const int SERIALIZER_NEUTRAL_STATE = 90; // The angle value when Serializer servo is neutral/in the middle
-static const int SERIALIZER_WATER_STATE = 135; // The angle value when Serializer servo turns to water processor
-static const int SERIALIZER_GABBAGE_STATE = 45;// The angle value when Serializer servo turns to gabbage processor
+static const int SERIALIZER_WATER_CLOSE = 135; // The angle value when Serializer servo turns to water processor
+static const int SERIALIZER_GABBAGE_CLOSE = 45;// The angle value when Serializer servo turns to gabbage processor
+static const int SERIALIZER_WATER_OPEN = 45; // The angle value when Serializer servo turns to water processor
+static const int SERIALIZER_GABBAGE_OPEN = 135;// The angle value when Serializer servo turns to gabbage processor
 // Dumper angle values (degrees)
 static const int DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo is closed
 static const int DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open
