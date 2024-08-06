@@ -31,6 +31,9 @@ void Serializer::run() {
         case 1:
             utils.setServo(SERIALIZER_CHAN, SERIALIZER_WATER_STATE);
             break;
+        case 2:
+            utils.setServo(SERIALIZER_CHAN, SERIALIZER_NEUTRAL_STATE);
+            break;
     }
 }
 
