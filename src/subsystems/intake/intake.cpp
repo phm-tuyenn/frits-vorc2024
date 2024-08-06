@@ -21,7 +21,7 @@ void Intake::setup() {
 void Intake::run() {
     // Get SQUARE ButtonPressed value
     int SQUAREInput = ps2x.ButtonPressed(PSB_SQUARE);
-    // Close/open dumper
+    // Turn on/off Intake
     int state = 0;
     if (SQUAREInput == 1){
         switch (state){
