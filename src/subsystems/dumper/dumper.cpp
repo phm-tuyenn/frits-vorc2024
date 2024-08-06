@@ -25,7 +25,7 @@ void Dumper::run() {
     if (TRIANGLEInput == 1){
         switch (state){
             case 0:
-                utils.setServo(DUMPER_CHAN,DUMPER_CLOSED_STATE);
+                utils.setServo(DUMPER_CHAN,DUMPER_OPEN_STATE);
                 state = 1;
                 break;
             case 1:
