@@ -41,6 +41,7 @@ static const int JOYSTICK_LEFT_CENTER_VAL = 127; // The analog value when left j
 static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right joystick in center
 // Intake motor speed
 static const float INTAKE_SPEED = 0.5; //  Motor speed for intake motor
+static const float INTAKE_SPEED = 0.8; //  Motor speed for intake motor
 // Serializer angle values (degrees)
 static const int SERIALIZER_NEUTRAL_STATE = 90; // The angle value when Serializer servo is neutral/in the middle
 static const int SERIALIZER_WATER_STATE = 0; // The angle value when Serializer servo turns to water processor
@@ -56,3 +57,5 @@ static const int WHITE_MAX = 255; // The R,G and B code for WHITE color code
 // Pseudo-constants
 static const int BLACK_MAX[3] = {127,127,127}; // The R,G and B code for the limit of BLACK color
 static const int WHITE_MIN[3] = {129,129,129}; // The R,G and B code for the limit of WHITE color
+static const float DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo is closed
+static const float DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open

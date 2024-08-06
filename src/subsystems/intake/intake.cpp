@@ -30,7 +30,7 @@ void Intake::run() {
                 state = 1;
                 break;
             case 1:
-                utils.setMotorSpeed(INTAKE_CHAN[0],INTAKE_CHAN[1],INTAKE_SPEED);
+                utils.setMotorSpeed(INTAKE_CHAN[0],INTAKE_CHAN[1],0);
                 state = 0;
                 break;
         }   
