@@ -29,7 +29,7 @@ static const float FLYWHEEL_VELOCITY_PERCENT = 0.8; // Flywheel velocity in perc
 static const float SHOOTER_HEIGHT = 0.5; // Shooter height (meter)
 static const float GOAL_HEIGHT = 1.8; // Goal height (meter)
 
-// These constant below need to tuned to use in real life, so these are pseudo-constants
+// These constant below need to tuned to use in real life, so they are pseudo-constants
 // Servo constant
 static const int T_on_0deg = 1; // On cycle time microsec for 0deg rotation
 static const int Ts = 20; // Dutycycle time microsec
@@ -41,6 +41,18 @@ static const int JOYSTICK_LEFT_CENTER_VAL = 127; // The analog value when left j
 static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right joystick in center
 // Intake motor speed
 static const float INTAKE_SPEED = 0.5; //  Motor speed for intake motor
+// Serializer angle values (degrees)
+static const int SERIALIZER_NEUTRAL_STATE = 90; // The angle value when Serializer servo is neutral/in the middle
+static const int SERIALIZER_WATER_STATE = 0; // The angle value when Serializer servo turns to water processor
+static const int SERIALIZER_GABBAGE_STATE = 180;// The angle value when Serializer servo turns to gabbage processor
 // Dumper angle values (degrees)
 static const int DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo is closed
 static const int DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open
+
+// Color detection variables (read function in serializer.cpp)
+// Fixed-constants
+static const int BLACK_MIN = 0; // The R,G and B code for BLACK color code
+static const int WHITE_MAX = 255; // The R,G and B code for WHITE color code
+// Pseudo-constants
+static const int BLACK_MAX[3] = {127,127,127}; // The R,G and B code for the limit of BLACK color
+static const int WHITE_MIN[3] = {129,129,129}; // The R,G and B code for the limit of WHITE color
