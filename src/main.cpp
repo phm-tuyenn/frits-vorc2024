@@ -45,8 +45,21 @@ void setup() {
     pwm.setPin(11, 0);
 
     // Setup for subsystem
+    drivetrain.setup();
+    intake.setup();
+    serializer.setup();
+    shooter.setup();
+    dumper.setup();
 }
 
 void loop() {
+    // Read gamepad
     ps2x.read_gamepad(false, false);
+
+    // Subsystem run
+    drivetrain.run();
+    intake.run();
+    serializer.run();
+    shooter.run();
+    dumper.run();
 }

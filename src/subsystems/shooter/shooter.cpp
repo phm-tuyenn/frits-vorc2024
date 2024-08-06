@@ -19,15 +19,16 @@ Shooter::Shooter(Adafruit_PWMServoDriver pwm, PS2X ps2x, Adafruit_TCS34725 tcs) 
 // Shooter setup: use this in `void setup()`
 void Shooter::setup() {
     utils.setHardware(pwm, ps2x, tcs);
-    utils.setServoAngle(HOOD_CHAN, 45);
-    utils.setServoAngle(LOADER_CHAN, 90);
+    utils.setServo(HOOD_CHAN, 45);
 }
 
 // Shooter main run: use this in `void loop()`
 void Shooter::run() {
+    // Rotate water loader servo clockwise
+    utils.setServo(LOADER_CHAN, SERVO360_CLOCKWISE);
     // Set angle for hood
-    utils.setServoAngle(HOOD_CHAN, getOptimalHoodAngle(utils.getDistance()));
-    // Check if button is pressed to run motor in 1200RPM, else stop motor
+    utils.setServo(HOOD_CHAN, getOptimalHoodAngle(utils.getDistance()));
+    // Check if R1 button is pressed to run motor in 1200RPM, else stop motor
     if (ps2x.ButtonPressed(PSB_R1)) {
         utils.setMotorSpeed(SHOOTER_CHAN[0], SHOOTER_CHAN[1], FLYWHEEL_VELOCITY_PERCENT);
     } else {

@@ -33,4 +33,9 @@ static const float GOAL_HEIGHT = 1.8; // Goal height (meter)
 // Servo constant
 static const int T_on_0deg = 1; // On cycle time microsec for 0deg rotation
 static const int Ts = 20; // Dutycycle time microsec
-
+static const float SERVO360_COUNTER_CLOCKWISE = 0; // Value for 360deg servo to rotate counter clockwise
+static const float SERVO360_CLOCKWISE = 180; // Value for 360deg servo to rotate clockwise
+static const float SERVO360_STOP = 60; // Value for 360deg servo to stop rotate
+// Gamepad constant
+static const int JOYSTICK_LEFT_CENTER_VAL = 127; // The analog value when left joystick in center
+static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right joystick in center
