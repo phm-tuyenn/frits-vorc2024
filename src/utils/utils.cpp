@@ -67,13 +67,13 @@ struct color Utilities::getColor() {
 */
 float Utilities::getDistance() {
     // Trigger signal
-    digitalWrite(TRIGPIN, LOW);
+    digitalWrite(TRIG_PIN, LOW);
     delayMicroseconds(2);
-    digitalWrite(TRIGPIN, HIGH);
+    digitalWrite(TRIG_PIN, HIGH);
     delayMicroseconds(10);
-    digitalWrite(TRIGPIN, LOW);
+    digitalWrite(TRIG_PIN, LOW);
 
-    float duration = pulseIn(ECHOPIN, HIGH); // Get pulse
+    float duration = pulseIn(ECHO_PIN, HIGH); // Get pulse
     float distance = (duration * .343) / 2; // 0.343 is speed of sound in mm/microsec
     return distance / 1000; // Convert to meter 
 }

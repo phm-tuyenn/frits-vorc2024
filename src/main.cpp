@@ -34,9 +34,11 @@ void setup() {
     
     tcs.begin(); // Set up color sensor
 
-    // Set up distance sensor
-    pinMode(TRIGPIN, OUTPUT); // Sets the trigPin as an Output
-    pinMode(ECHOPIN, INPUT);
+    // Set up distance sensor and limit switch
+    pinMode(TRIG_PIN, OUTPUT);
+    pinMode(ECHO_PIN, INPUT);
+    pinMode(LIMIT_SWITCH_1_PIN, INPUT);
+    pinMode(LIMIT_SWITCH_2_PIN, INPUT);
 
     // Set pin state
     pwm.setPin(8, 0);

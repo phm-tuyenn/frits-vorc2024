@@ -11,8 +11,12 @@ static const int LOADER_CHAN = 4; // Water loader servo
 static const int DUMPER_CHAN = 5; // Waste dumper servo
 
 // Distance sensor pin
-static const int TRIGPIN = 36; // Trigger pin
-static const int ECHOPIN = 39; // Echo pin
+static const int TRIG_PIN = 36; // Trigger pin
+static const int ECHO_PIN = 39; // Echo pin
+
+// Limit switch pin
+static const int LIMIT_SWITCH_1_PIN = 25;
+static const int LIMIT_SWITCH_2_PIN = 32;
 
 // Gamepad setup
 static const int PS2_CLK = 14;
@@ -47,8 +51,8 @@ static const int SERIALIZER_GABBAGE_CLOSE = 45;// The angle value when Serialize
 static const int SERIALIZER_WATER_OPEN = 45; // The angle value when Serializer servo turns to water processor
 static const int SERIALIZER_GABBAGE_OPEN = 135;// The angle value when Serializer servo turns to gabbage processor
 // Dumper angle values (degrees)
-static const int DUMPER_CLOSED_STATE = 0; // The angle value when Dumper servo is closed
-static const int DUMPER_OPEN_STATE = 90; // The angle value when Dumper servo is open
+static const int DUMPER_CLOSE_SPEED = 360; // The speed value to make Dumper servo closed
+static const int DUMPER_OPEN_SPEED = 180; // The speed value to make Dumper servo open
 
 // Color detection variables (read function in serializer.cpp)
 static const int COLOR_THRESHOLD = 128; // Threshold to determine black or white
