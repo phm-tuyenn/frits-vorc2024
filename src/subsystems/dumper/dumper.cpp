@@ -35,10 +35,12 @@ void Dumper::run() {
     
     switch (state){
         case 1:
-            utils.setServo(DUMPER_CHAN, DUMPER_OPEN_SPEED);
+            if (digitalRead(LIMIT_SWITCH_2_PIN)) 
+                utils.setServo(DUMPER_CHAN, DUMPER_OPEN_SPEED);
             break;
         case 0:
-            utils.setServo(DUMPER_CHAN, DUMPER_CLOSE_SPEED);
+            if (digitalRead(LIMIT_SWITCH_1_PIN))
+                utils.setServo(DUMPER_CHAN, DUMPER_CLOSE_SPEED);
             break;
     }   
 }
