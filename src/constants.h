@@ -31,7 +31,7 @@ static const float GRAVITATIONAL_ACCELERATION = 9.8; // g = 9.8m/s^2
 static const float WHEEL_RADIUS = 0.045; // Wheel radius in meter
 static const float SHOOTER_HEIGHT = 0.5; // Shooter height (meter)
 static const float GOAL_HEIGHT = 1.8; // Goal height (meter)
-static const float MAX_RPM = 1500; // Max RPM of shooter
+static const float MAX_RPM = 2250; // Max RPM of shooter
 
 // These constant below need to tuned to use in real life, so they are pseudo-constants
 // Servo constant
