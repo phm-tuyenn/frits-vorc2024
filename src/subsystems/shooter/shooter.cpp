@@ -24,7 +24,7 @@ void Shooter::setup() {
 // Shooter main run: use this in `void loop()`
 void Shooter::run() {
     // Rotate water loader servo clockwise
-    utils.setServo(LOADER_CHAN, SERVO360_CLOCKWISE);
+    utils.setServo(LOADER_CHAN, SERVO360_COUNTER_CLOCKWISE);
     // Check if R1 button is pressed to run motor in 1200RPM, else stop motor
     if (ps2x.ButtonPressed(PSB_R1)) {
         utils.setMotorSpeed(SHOOTER_CHAN[0], SHOOTER_CHAN[1], getOptimalVelocity(utils.getDistance()));
