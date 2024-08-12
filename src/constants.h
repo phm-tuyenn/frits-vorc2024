@@ -29,7 +29,7 @@ static const bool RUMBLE = false;
 // These constant don't need to tuned
 static const float GRAVITATIONAL_ACCELERATION = 9.8; // g = 9.8m/s^2
 static const float WHEEL_RADIUS = 0.045; // Wheel radius in meter
-static const float SHOOTER_HEIGHT = 0.5; // Shooter height (meter)
+static const float SHOOTER_HEIGHT = 0.0947; // Shooter height (meter)
 static const float GOAL_HEIGHT = 1.8; // Goal height (meter)
 static const float MAX_RPM = 2250; // Max RPM of shooter
 
@@ -44,7 +44,7 @@ static const float SERVO360_STOP = 60; // Value for 360deg servo to stop rotate
 static const int JOYSTICK_LEFT_CENTER_VAL = 127; // The analog value when left joystick in center
 static const int JOYSTICK_RIGHT_CENTER_VAL = 127; // The analog value when right joystick in center
 // Intake motor speed
-static const float INTAKE_SPEED = 0.8; //  Motor speed for intake motor
+static const float INTAKE_SPEED = 0.9; //  Motor speed for intake motor
 // Serializer angle values (degrees)
 static const int SERIALIZER_WATER_CLOSE = 135; // The angle value when Serializer servo turns to water processor
 static const int SERIALIZER_GABBAGE_CLOSE = 45;// The angle value when Serializer servo turns to gabbage processor
